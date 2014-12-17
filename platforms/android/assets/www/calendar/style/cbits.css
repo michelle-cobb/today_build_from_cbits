@@ -1,0 +1,49 @@
+/*html, body {
+	padding: 0;
+	margin: 0;
+  background-color:#FFFDFD;
+}*/
+
+input.btn {
+	margin-top: 10px;
+}
+
+/*.gray {
+  color: LightGray;
+}*/
+
+
+span.postResponse.none {
+  background: #FFFFFF;
+  color: #000000;
+}
+span.postResponse.noerror {
+  background: #556B2F;
+  color: #FFC613;
+}
+span.postResponse.error {
+  background: #B22924;
+  color: #FFFFFF;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.Assessment h1 {display:none;}
+.question > div.content { text-align: center !important;}
+
+.current_value {color:blue !important;}
+
+    .d {background-color: #55c3dc;}
+    .c {background-color: #8c6429;}
+    .b {background-color: #e7f3ef;}
+    .a {background-color: #7e726D;}
+    .e {background-color: #e24b2c;}
+
+
+    .a1 {color: #55c3dc;}
+    .b1 {color: #8c6429;}
+    .c1 {color: #e7f3ef;}
+    .d1 {color: #7e726D;}
+    .e1 {color: #e24b2c;}

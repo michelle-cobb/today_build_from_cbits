@@ -1,0 +1,296 @@
+.new-content {
+	-webkit-box-shadow:0 0 5px 2px #37FDFC; 
+	-moz-box-shadow: 0 0 5px 2px #37FDFC; 
+	box-shadow:0 0 5px 2px #37FDFC;
+}
+
+.new-button-content {
+	-webkit-box-shadow:0 0 5px 2px #37FDFC; 
+	-moz-box-shadow: 0 0 5px 2px #37FDFC; 
+	box-shadow:0 0 5px 2px #37FDFC;
+}
+
+.ui-body-c {
+	text-shadow: none;
+}
+label.formfield {
+	float: left;
+	display: block;
+	width: 75%;
+}
+input.formfield {
+	float: left;
+	display: block;
+	width: 20%;
+}
+ .home-button {
+	width: 100%; 
+ 	background-color: #68C98A;
+ 	margin-bottom: 30px;
+}
+
+.icon-home {
+	color: white;
+}
+
+legend {
+	color:white !important; 
+	font-weight: bold !important;
+}
+
+ label {
+	color:white !important; 
+	font-weight: bold !important;
+}
+
+.big-check {
+	padding: 5px;
+	text-align: center;
+}
+
+.yellow {
+	padding: 4px;
+	padding-left: 14px;
+	background-color: #d8ff00;
+	border-radius: 3px;
+	margin: 3px;
+	margin-left: -5px;
+	color: #4f4f4f;
+}
+.preferred-solution {
+	color: #1a1b1c;
+
+}
+/*.larger {
+	-webkit-transform:scale(2,2);
+	-icab-transform:scale(2,2);
+	-moz-transform:scale(2,2);
+	-ms-transform:scale(2,2);
+	-o-transform:scale(2,2);
+	transform:scale(2,2);
+}*/
+
+.check-label {
+	font-size: 110%;
+	margin-bottom: 10px;
+	padding-left:37px;
+}
+
+.check {
+	margin-right: 25px !important;
+}
+
+.highlight {
+	color:darkblue;
+}
+
+/*
+Goal Tracker
+*******************/
+
+ul#notCompletedGoals {
+	font-size: 120%;
+}
+ul#notCompletedGoals li {
+	padding-bottom: 10px;
+}
+
+#completedGoals {
+	list-style-type: none;
+	font-size: 120%;
+}
+
+#completedGoals li {
+	padding-bottom: 10px;
+	color: yellow;
+}
+
+/*
+Thought Record
+*******************/
+
+#today-list li {
+	margin-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 15px;
+	margin-left: -15px;
+	max-width: 98%;
+}
+
+#today-list li.Mad, li.Angry, li.Annoyed {
+	background-color:  #8C0F16;
+}
+
+#today-list li.Sad, li.Down, li.Depressed {
+	background-color: #4A80B2;
+}
+
+#today-list li.Guilty, li.Ashamed, li.Embarrassed {
+	background-color: #609C7C;
+}
+
+#today-list li.Bored, li.Blah {
+	background-color:  #5C5357;
+}
+
+#today-list li.Nervous, li.Worried, li.Anxious {
+	background-color: #C77A52;
+}
+
+/*
+Background colors for Coping Cards
+***********************************/
+
+.color1 {
+	background-color: #054871;
+}
+.color2 {
+	background-color: #056E7B;
+}
+.color3 {
+	background-color: #057B46;
+}
+.color4 {
+	background-color: #057122;
+}
+
+/*******************************/
+
+ul .icon-caret-right {
+	color:yellow;
+	margin-left: -30px;
+	font-size: 100px;
+
+}
+
+#today-list-icon0 {
+	margin-top: -15px;
+}
+
+.today-description {
+	margin-left: 20px;
+}
+
+/*
+Coping Card
+***********************/
+
+.cards {
+	list-style: none;
+	margin-left: 5px;
+}
+
+.time-card, .situation-card {
+	word-wrap:break-word;
+	height: auto;
+	min-height: 50px;
+	width:100%;
+	max-width: 230px;
+	padding: 30px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+/*
+TRAPs
+**************************/
+
+li.fear-driven {
+	background-color: #C75C2E;
+}
+li.anger-driven {
+	background-color:  #8C0F16;
+}
+li.sadness-driven {
+	background-color: #4A80B2;	
+}
+
+/*
+Problem Solver
+*************************/
+.preferred-solution {
+	margin-right: 5px;
+	margin-left: -7px;
+}
+
+/*
+GRAPHS
+*************************/
+#graph-list {
+	list-style-type: none;
+	margin-left: 50px;
+	margin-right: 90px;
+}
+
+.graph-tile {
+	margin: auto;
+	text-align: center;
+	min-height: 50px;
+	width: 100%;
+	background-color: red;
+	color: white;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+/*MODALS*/
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container {text-shadow:none; text-align: left; background-color:gray; border:3px solid white; border-radius: 8px; padding:8px; color:white; width:80%; min-height: 70%;}
+.modal-close {margin-top:10px; }
+
+/*mood rater*/
+#assessment {
+	padding: 20px;
+	text-align: left;
+
+}
+#assessment .form-group {
+	background-color: #00879D;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+#assessment .form-group div {
+	margin-left: 10px;
+	padding: 4px;
+	border-bottom: 1px solid antiquewhite;
+;
+}
+ #assessment legend {
+ 	border: none;
+ 	color:  antiquewhite !important;
+
+
+ }
+ #assessment .form-group div label {
+ 	 	color:  #f8f8f8 !important;
+
+ }
+ body a {
+ 	color: #fdf496;
+ }
+
+ #pattern input {
+ 	width: 100%;
+ 	font-size: 12px;
+ }
+ #trigger input {
+ 	width: 100%;
+ 	font-size: 12px;
+ }
+
+ .col-sm-4, .col-xs-4, .col-md-4 {
+ 	margin-bottom: 15px;
+ }
+
+ .fist-time {
+ 	position: absolute;
+ 	top: 30%;
+ 	left: 30%;
+ }
+ p.other-input {
+ 	margin-top: -30px;
+ }

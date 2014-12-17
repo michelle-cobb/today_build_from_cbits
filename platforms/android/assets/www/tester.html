@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+
+    <title>TODAY</title>
+    <link href="js/vendor/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet">
+<!--     <link href="js/vendor/bootstrap/css/bootstrap-responsive.min.css" media="screen" rel="stylesheet"> --> 
+     <link href="js/vendor/fontawesome/css/font-awesome.min.css" media="screen" rel="stylesheet">
+    <link href="css/global.css" media="screen" rel="stylesheet">
+
+    <link href="http://code.jquery.com/ui/jquery-ui-git.css" media="screen" rel="stylesheet">
+    <script src="js/vendor/jquery-1.9.1.js"></script>
+    <script src="js/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/vendor/backbone-min.js"></script>
+    <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+            
+
+    <!--app JS-->
+    <script src="js/app/content.js"></script>
+
+
+    <script src="js/app/app.js"></script>
+    <script src="js/app/views/general.js"></script>
+<!--    <script src="js/app/views/lessons.js"></script>
+    <script src="js/app/views/assessments.js"></script>-->
+    <script src="js/app/actions/general.js"></script>
+<!--    <script src="js/app/actions/lessons.js"></script>    -->
+<!--    <script src="js/app/actions/assessments.js"></script>-->
+
+
+
+
+    <script src="js/app/routers/general.js"></script>
+
+    <!-- User-generated css -->
+
+    <style>
+    body{background:url(images/backgrounds.png);}
+    .widget {color:white; float:left;margin-left:1.25%; margin-right:1.25%; margin-top:10px; text-align:center;padding:1%; border-radius: 2px;}
+    .size_width1{width:28.80%; }
+    .size_width2{width:58%; }
+    .size_width3{width:87%; }
+    .size_height1{height:100px;}
+    .size_height2{height:200px;}
+    .size_height3{height:300px;}
+    .size_height0 i {display:block;font-size:3em;margin-top:.25em;}
+    .size_height1 i {display:block;font-size:3em;margin-top:.25em;}
+    .size_height2 i {display:block;font-size:6em;margin:0;}
+    .size_height1 i img {height:55px;}
+    .size_height2 i img {width:75%;}
+    .widget h3 {font-weight:normal; font-size:1.2em; letter-spacing: 0; line-height: 1.2em; margin-top:0;}
+    #mainContainer h1, h2, h3{color:white;}
+
+    .btn {font-size:1.75em;margin-bottom:.5em;padding:.5em 1em;margin-right:.5em; margin-left:.5em;}
+    .content_panel{background-color:white !important; margin-left:10%;margin-right:10%; border-radius: 1em;padding:1em;margin-bottom:1em; margin-top:1em; text-align:left;}
+
+    .content_panel p {}
+    
+    .content_panel h1, .content_panel h2, .content_panel h3{color:black !important; text-align: center; color:purple !important; font-size:1.4em;margin-top:0 !important;margin-bottom:0em;}
+
+    </style>
+
+    <script>
+    try {
+         $(document).ready(function () {
+
+            new app.Router;
+            Backbone.history.start();
+
+         });
+
+    } catch (error) {
+    console.error("Your javascript has an error: " + error);
+    }
+    </script>
+</head>
+
+<body>
+   <div id="mainContainer">
+   </div>
+</body>
+
+<script>
+window.addEventListener("load",function() {
+  // Set a timeout...
+  setTimeout(function(){
+    // Hide the address bar!
+    window.scrollTo(0, 1);
+  }, 0);
+});</script>
+
+</html>

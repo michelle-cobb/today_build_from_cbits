@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="initial-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+<title>TODAY</title>
+<link href="css/bootstrap-theme.min.css" media="screen" rel="stylesheet">
+<link href="css/bootstrap.min.css" media="screen" rel="stylesheet">
+
+<!--     <link href="js/vendor/bootstrap/css/bootstrap-responsive.min.css" media="screen" rel="stylesheet"> -->
+<!-- <link href="js/vendor/jquery.mobile-1.3.1.css" media="screen" rel="stylesheet">
+ --><link href='http://fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
+<link href="js/vendor/font-awesome/css/font-awesome.min.css" media="screen" rel="stylesheet">
+<link href="css/global.css" media="screen" rel="stylesheet">
+<link href="css/animate.css" media="screen" rel="stylesheet">
+<!-- <link href="css/TODAY.css" media="screen" rel="stylesheet">
+ -->
+<script src="js/vendor/jquery-1.9.1.js"></script>
+<script src="js/vendor/lodash.underscore.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/backbone-min.js"></script>
+<script src="js/vendor/bootstrap-slider.js"></script>
+
+<!-- <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+ --><!-- <script src="js/vendor/bootstrap/js/bootstrap.min.js"></script>
+ --><script src="js/vendor/purple-robot-client.js"></script>
+<script src="js/vendor/default-triggers.js"></script>
+<script src="js/vendor/date.js"></script>
+<script src="js/app/pound.js"></script>
+<script src="js/vendor/tee.js"></script>
+<script src="js/vendor/moment.js"></script>
+<script src="js/vendor/jquery.simplemodal-1.4.4.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<!--app JS-->
+
+<script src="js/app/content.js"></script>
+<script src="js/app/questions.js"></script>
+
+<script src="js/app/app.js"></script>
+<script src="js/app/mood_rater.js"></script>
+<script src="js/app/purple_push.js"></script>
+<script src="js/app/thoughtrecord.js"></script>
+<script src="js/app/positive_activities.js"></script>
+<script src="js/app/problem_solver.js"></script>
+<script src="js/app/coping_cards.js"></script>
+<script src="js/app/trap.js"></script>
+<script src="js/app/sequence_player.js"></script>
+<script src="js/app/daily_review.js"></script>
+<script src="js/app/start.js"></script>
+<script src="js/app/activity_tracker.js"></script>
+<script src="js/app/actions.js"></script>
+<script src="js/app/assessment.js"></script>
+<script src="js/app/responsibility_pie.js"></script>
+<script src="js/app/buttons.js"></script>
+<script src="js/app/forms.js"></script>
+<script src="js/app/graphs.js"></script>
+<script src="js/app/social_support.js"></script>
+<script src="js/app/goaltracker.js"></script>
+<script src="js/app/comingout.js"></script>
+<script src="js/app/goto.js"></script>
+<script src="js/app/utils.js"></script>
+<script src="js/app/views.js"></script>
+
+<!-- User-generated css -->
+<style>
+    body,.ui-page {background:#111247!important}
+    .widget {color:white; float:left;margin-left:1.25%; margin-right:1.25%; margin-top:10px; text-align:center;padding:1%; border-radius: 2px; word-wrap:normal !important;}
+    .size_width1{width:28.80%; }
+    .size_width2{width:58%; }
+    .size_width3{width:87%; }
+    .size_height1{height:100px;}
+    .size_height15{height:120px;padding-top:20px !important;}
+    .size_height2{height:200px;}
+    .size_height3{height:300px;}
+    .size_height0 i {display:block;font-size:3em;margin-top:.25em;}
+    .size_height1 i {display:block;font-size:3em;margin-top:.25em;}
+    .size_height2 i {display:block;font-size:6em;margin:0;}
+    .size_height1 i img {height:55px;}
+    .size_height2 i img {width:75%;}
+    .widget h3 {font-weight:normal; font-size:1.2em; letter-spacing: 0; line-height: 1em; margin-top:0;}
+    #mainContainer h1, h2, h3{color:white;}
+    body{text-align: center;}
+    .btn {font-size:1em;margin:auto;margin-bottom:.5em;padding:.5em 1em; min-width: 100%; max-width: 100%; 
+        color: black;
+        background-color: #B4D8E8;
+        word-wrap:break-word;
+        white-space: normal;
+        }
+    .btn-coach { 
+        min-width: 89%;
+    }
+    
+    .content_panel{background-color:#3C505B !important; margin-left:5%;margin-right:5%; border-radius: .25em;padding:1em;margin-bottom:.5em; margin-top:.5em; text-align:left; color:white; 
+        -moz-box-shadow:10px 10px 5px #333333;
+    -webkit-box-shadow:10px 10px  5px #333333;
+    box-shadow:10px 10px 5px #333333;
+    border:2px solid;
+    font-family:'Droid Sans',sans-serif; font-size:1.2em;
+}
+    .content_panel p {}
+    .content_panel h1, .content_panel h2, .content_panel h3{ text-align: center;  font-size:1.35em;margin-top:0 !important;margin-bottom:0em; font-family: 'Droid Sans',sans-serif; margin-bottom:.5em; color:#EEE;}
+    /* data-theme-a     */
+    .ui-btn-inner {background:#cccccc;}
+    #notCompletedGoals{list-style-type: none;}
+</style>
+<script>
+    try {
+         $(document).ready(function () {
+            new app.Router;
+            Backbone.history.start();
+         });
+    } catch (error) {
+    console.error("Your javascript has an error: " + error);
+    }
+    </script>
+</head>
+<body data-theme="b">
+<div id="mainContainer">
+</div>
+</body>
+<script>
+window.addEventListener("load",function() {
+  // Set a timeout...
+  setTimeout(function(){
+    // Hide the address bar!
+    window.scrollTo(0, 1);
+  }, 0);
+});</script>
+</html>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <title>Activity Calendar</title>
+    
+    <link rel="stylesheet" media="screen" href="../../vendor/font-awesome/css/font-awesome.min.css">
+    <link href="../../../css/mobiscroll.custom-2.7.2.min.css" rel="stylesheet" type="text/css" />   
+    <link rel="stylesheet" media="screen" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="../../../css/cbits.css">
+
+    <script src="../../vendor/jquery-1.9.1.js"></script>
+    <script src="../pound.js" type="text/javascript"></script>
+    <script src="../cbits.js" type="text/javascript"></script>
+    <script src="js/underscore-min.js" type="text/javascript"></script>
+    <script src="../../vendor/mobiscroll.custom-2.7.2.min.js" type="text/javascript"></script>
+    <script src="../../vendor/dateformat.js" type="text/javascript"></script>
+
+
+    <style type="text/css">
+
+        body,html {
+            padding: 0;
+            margin: 0;
+            background-color: #111247;
+            color: white;
+         }
+
+        
+        #calendar {margin-left:auto; margin-right:auto;}
+
+        #event_list {border-top: 2px solid #AA6666; overflow: auto;}
+        #event_list ul {padding:0; margin:0;}
+        #event_list li {list-style: none; padding:.5em .5em; margin: 0; border-bottom: 1px solid #1e497c; cursor:hand; cursor:pointer;}
+        #event_list li:hover {background-color: #7799BB; color:white;}
+        #event_list li:last-child {  border-bottom:none; }
+        #event_list li h1,h2,h3 {margin:0;}
+        #event_list li .title { font-size:1.2em;}
+        #event_list li .datetime {font-size:1em;}
+
+        #event_form {padding:1em;}
+        #event_form label {margin-top:1em; font-weight:bold;}
+        #event_form input[type="text"] {width:80%;}
+        #event_form textarea {width:80%; height:75px;}
+
+
+        .default_hidden {display:none;}
+    </style>
+
+
+
+  <script type="text/javascript">
+
+
+  var copingCard = {};
+  copingCard.form = {};
+  copingCard.form.render =function(event) {
+    return ""
+  };
+  copingCard.form.template =function(event) {
+    
+    var html = "";
+    var meta_content = event.meta_content;
+    var coping_reasons = ["Anxiety","Fear","Social Nervousness","Guilt"];
+    var checked = "";
+
+    html += "<label for='coping_card_reason'>What are you trying to cope with?</label><br/>";
+    html += "<select name='coping_card_reason'><option value=''>pick a reason</option>";
+    _.each(coping_reasons,function(el){
+        if (el == event.coping_card_reason){ checked = "selected='selected'";} else {checked="";}
+        html += "<option value='" + el +"'" +checked +  "  >" + el +"</option>";
+
+    });
+    html += "</select><br/>";
+    html += "<label for='coping_card_message'>What do you want to remember when this event happens?</label><br/>";
+    html += "<textarea name='coping_card_message' placeholder=''>" + event.coping_card_message +"</textarea>";
+
+
+    return html
+  };
+
+  </script>
+
+
+    <script type="text/javascript">
+
+
+
+
+    var events = {};
+    events.calendar = {};
+    events.list = {};
+    events.form = {};
+
+    events.contents = pound.find("activity_tracker") || [];
+
+    events.filters = {};
+    events.filters.days = function(event_contents){
+        var list_of_dates = events.filters.dates(event_contents);
+        var list_of_days = [];
+        _.each(list_of_dates,function(el){
+            list_of_days.push( new Date( parseInt(el.substring(0,4)), parseInt(el.substring(5,7))-1, parseInt(el.substring(8,10))));
+        });
+        return list_of_days
+    };
+
+    events.filters.dates = function(event_contents){
+        var list_of_dates = [];
+        var current_date = new Date ();
+        _.each(_.pluck(event_contents,"date"), function(el){
+            list_of_dates.push(el);
+        });
+        return list_of_dates
+    };
+
+
+    events.model = {
+        id: '',
+        name: '',
+        date:"",
+        time: "",
+        accomplishment_predicted:"",
+        accomplishment_actual:"",
+        pleasure_predicted:"",
+        pleasure_actual:"",
+        coping_card_created:"",
+        coping_card_reason:"",
+        coping_card_message:""
+    };
+
+events.calendar.render = function() {
+    $("#events_calendar").removeClass("hide");
+    $('#calendar').mobiscroll().calendar({
+        display: 'inline',
+        theme: "android-ics light",
+        marked: { dates: events.filters.days(events.contents)}, // Initially marked days
+        onWeekChange: function (year, month, inst) {
+            
+            inst.settings.marked.dates = events.filters.dates(events.contents,month,year);
+            // inst.settings.marked.daysOfMonth = events.filters.days(events.contents,month,year);
+
+        },
+        onDayChange:function(day,inst){
+            console.log(inst.getDate());
+            var today = new inst.getDate();
+
+            var parsedDate = today.toJSON().toString().substring(0,10);
+            console.log(parsedDate);
+            inst.settings.marked.dates = events.filters.days(events.contents);
+
+            var clickedDay = _.where(p.find("activity_tracker"),{date: parsedDate});
+            events.list.render(clickedDay);
+        } 
+/*        onEventSelect: function(){}
+*/    }); 
+
+    $("#event_list").css("height",$(document).height()-$("#calendar").height()-3);
+    events.list.render(events.contents);
+    $("#home").show("slow");
+
+
+}
+
+
+
+events.list.render = function(events_contents){
+
+    var list_of_events = "<li id='add-event'>" + "<h3><i class='icon-plus'></i> Add a New Event</h3>"+ "</li>";
+    var events_contents = events_contents || events.contents;
+    _.each(events_contents, function(el){
+        list_of_events += events.list.template(el);
+    });
+
+    // TODO: add function to allow viewing of older activities
+    // list_of_events += "<li id='older_events'><h2><i class='icon-suitcase'></i> Older Events</li></h2>"
+
+    $("#event_list").html("<ul>" + list_of_events +"</ul>");
+    $("#event_list ul > li.edit-event").on("click",function(ev){
+        // console.log($(this));
+        events.form.render($(this)[0].dataset.id,"edit");
+    });
+    $("#event_list ul > li#add-event").on("click",function(ev){
+        events.form.render($(this)[0].dataset.id,"add");
+    });
+    // $("#event_list ul > li#older-events").on("click",function(ev){
+    //     // TODO: SHOULD ONE DAY LOAD OLDER EVENTS
+    // });
+};
+
+events.list.template = function (event){
+
+
+    var meta_content = event.meta_content || {};
+    var null_response = "<i>not yet answered</i>";
+    var event_datetime = html5DateAndTimeToJSDateTime(event.date,event.time);
+
+    var response = "<h1 class='title'>"+ event.name + "</h1><h2 class='datetime'>"+ dateFormat(event_datetime,"longDate") + " "+dateFormat(event_datetime,"shortTime") + "</h2>";
+
+    // response += "<h3 class='label'>Accomplishment</h3>";
+    // response += "Predicted: " + (meta_content.accomplishment.predicted || null_response) + "<br/>";
+    // response += "Actual: " + (meta_content.accomplishment.actual || null_response) +"<br/>";
+    // response += "<h3 class='label'>Pleasure</h3>";
+    // response += "Predicted: " + (meta_content.pleasure.predicted || null_response) + "<br/>";
+    // response += "Actual: " + (meta_content.pleasure.actual || null_response) +"<br/>";
+
+    if (event.coping_card_created == "yes" ){
+        response += "<i>Coping Card Scheduled!</i>"
+    }
+
+    return "<li class='edit-event' data-id=\"" + event.id+ "\">" + response + "</li>"
+};
+
+events.form.render = function(id,form_type){
+    $("#events_calendar").hide("slow");
+
+    $("#event_form").html(events.form.template(id,form_type));
+
+
+
+    // $("input[type=range]").slider({tooltip:"show"});
+    //     $(".slider.slider-horizontal").css("width","160");
+
+    $("#event_form").show("slow");
+
+    $(".show_coping_options").on("click",function(ev){
+        if ($(this).val() == "yes"){
+            $("#coping_card_options").show();
+        }
+        else{
+            $("#coping_card_options").hide();
+        }
+    });
+
+    if ($("input:radio[name=coping_card_created]:checked").val() == "yes"){
+        $("#coping_card_options").show();
+    };
+
+
+    $("#event_form > form").on("submit",function(ev){
+        ev.stopPropagation();
+        ev.preventDefault();
+        // var event_to_add = events.model;
+
+        console.log($(this).serializeObject());
+        pound.save("activity_tracker",$(this).serializeObject());
+        events.contents = pound.find("activity_tracker");
+ 
+        //add event to pound
+        //refresh mobiscroll calendar from pound database
+        //add triggers for coping cards added
+        $("#event_form").hide("slow");
+        events.calendar.render();
+        $("#events_calendar").show();
+    });
+
+    // console.log(date,id);
+    // alert(event.date);
+
+};
+
+events.form.template = function(id,form_type){
+    var html = "";
+    var event = {};
+
+
+
+    if(_.where(events.contents,{id:parseInt(id)}).length > 0){
+
+        event = _.where(events.contents,{id:parseInt(id)})[0];
+
+    }
+    else {
+          event = events.model;
+    }
+  
+        console.log(event);
+
+
+
+    var copingCardExists = function (thing, value){
+        if (thing == value)
+    {
+        return 'checked = "checked"'}
+    }
+
+
+
+    var form_format = {
+        event_name : "What is your event?",
+        title:"Add an activity",
+        when_day: "What day is it on?",
+        when_time:"What time is it at?",
+        pleasure_label:"How much fun do you think it will be?",
+        pleasure_default_value: 50,
+        accomplishment_label:"How much do you feel like you'll get something out of it?",
+        accomplishment_default_value: 50,
+        show_coping: false,
+        show_review: false,
+        recommendation: "Try something fun!",
+        submit_text : "Save Activity",
+        submit_icon : "<i class='icon-check-sign'></i> ",
+        submit_classes : "btn btn-primary",
+        classes: "form-group",
+        coping_classes: ""
+    }
+
+    switch(form_type){
+    case "plan":
+    form_format.title="Plan something to do";
+    form_format.classes = form_type;
+
+    break;
+    case "review":
+    form_format.title="How did this activity go?";
+    form_format.show_review = true;
+    form_format.classes = form_type;
+    form_format.coping_classes = "hide";
+    
+    break;
+    default:
+    break;
+    }
+
+    html += "<form class='"+ form_format.classes  +"'>";
+    html += "<h2><a href='index.html'><i class='icon-chevron-left'></i></a> " + form_format.title + "</h2>";
+    html += "<input type='hidden' name='id' value='"+ event.id +"'/>";
+    html += "<label for='name'>" + form_format.event_name +"</label><br/>";
+    html += "<input type='text' name='name' placeholder='"+ form_format.recommendation +"' value ='"+ event.name +"'/><br/>";
+    html += "<label for='date'>What day is it on?<br/>";
+    html += "<input type='date' name='date' value ='"+ event.date +"'/></label> ";
+    html += "<label for='time'>What time is it at?<br/><input type='time' name='time' value ='"+event.time +"'/></label><br/>";
+
+
+    if (form_type != review){
+    html += "<label for='pleasure_predicted'>How much fun do you think it will be?</label><br/>";
+    html += "<table><tr><td class='ends'>Not very much</td><td class='middle'><input type='range' name='pleasure_predicted' value ='"+ event.pleasure_predicted+"'/></td><td class='ends'>A lot</td></tr></table>";
+    html += "<label for='accomplishment_predicted'>How much do you feel like you'll get something out of it?</label><br/>";
+    html += "<table><tr><td class='ends'>Not very much</td><td class='middle'><input type='range' name='accomplishment_predicted' value ='"+ event.accomplishment_predicted+"'/></td><td class='ends'>A lot</td></tr></table>";
+    html += "<input type='hidden' name='accomplishment_actual' value = ''><input type='hidden' name='pleasure_actual' value = ''>";
+    }
+    else {
+        html += "<h4>You said it was going to be " + event.pleasure_predicted+ " / 100 fun...";
+        html += "<label for='pleasure_predicted'>How much fun was it?</label><br/>";
+    html += "<table><tr><td class='ends'>Not very much</td><td class='middle'><input type='range' name='pleasure_predicted' value ='"+ event.pleasure_predicted+"'/></td><td class='ends'>A lot</td></tr></table>";
+     html += "<h4>You said you were going to get " + event.accomplishment_predicted+ " / 100 out of it...";
+    html += "<label for='accomplishment_predicted'>How much did you actually get something out of it?</label><br/>";
+    html += "<table><tr><td class='ends'>Not very much</td><td class='middle'><input type='range' name='accomplishment_predicted' value ='"+ event.accomplishment_predicted+"'/></td><td class='ends'>A lot</td></tr></table>";
+    html += "<input type='hidden' name='accomplishment_predicted' value = '" + event.accomplishment_predicted+ "'><input type='hidden' name='pleasure_predicted' value = '"+ event.pleasure_predicted+"'>";
+    }
+    
+    html += "<label for='coping_card_created'"+form_format.coping_classes +">Are you worried about this event?</label><br/>";
+    html += "YES <input name='coping_card_created' class='show_coping_options' type='radio' value='yes' " + copingCardExists("yes",event.coping_card_created) + "/>";
+    html += "NO <input name='coping_card_created' class='show_coping_options' type='radio' value='no' " + copingCardExists("no",event.coping_card_created) + "/>";
+    html += "<div id='coping_card_options' class='default_hidden'>"+ copingCard.form.template(event) +"</div>";
+
+
+    html += "<br/><br/><button type='submit' class='"+ form_format.submit_classes +"'>"+  form_format.submit_icon+ form_format.submit_text + "</button>"
+
+    return html + "</form>"
+}
+
+// localStorage["events_contents"] = JSON.stringify(events.contents);
+
+if (localStorage["events_contents"] != undefined){
+    events.contents = JSON.parse(localStorage["events_contents"]);
+};
+
+ var page_description = "<div><p>The Activity Tracker can be used in several different ways including monitoring your activities, measuring and analyzing fun and accomplishment, monitoring and measuring negative moods, scheduling positive activities or overwhelming tasks, and checking predictions.</p><p>Filling out the Activity Tracker can help you see how you’re spending your time and uncover the activities that give you the most pleasure and sense of accomplishment.</p></div>";
+
+
+
+$(function(){
+
+
+   // on initial page render 
+   $("#show_ba").on("click",function(){
+        $.modal(page_description);
+   });
+
+   $("#go_to_events_calendar").on("click",function(ev){
+        $("nav#nav").addClass("hide");
+        events.calendar.render();
+   });
+
+   $("#review").on("click",function(ev){
+        $("nav#nav").addClass("hide");
+        events.calendar.render();
+        $("#calendar").hide();
+   });
+
+   $("#schedule").on("click",function(ev){
+        $("nav#nav").addClass("hide");
+
+    events.form.render (guid(),"plan");
+   });
+   $("#monitor_now").on("click",function(ev){
+    $("nav#nav").addClass("hide");
+        events.form.render (guid(),"review");
+   });
+
+});
+    </script>
+</head>
+
+<body class="holo">
+<div class="row-fluid">
+<div class="col-md-1"></div>
+<div style="text-align: center;background-color:#68C98A;"><a href='/parakeet/staging/' style="color:white;"><i class='icon-home icon-4x'></i></a></div>
+<div class="col-md-10">
+    <nav id="nav"><h2 style="margin-top:.5em;">Activity Tracker </h2>
+    <h4>This tool helps you to become aware of how what you do affects how you feel<br/> (<a href="#" id="show_ba">click to learn more</a>)</h4>
+
+    <div class="alert alert-info"><i class="icon-exclamation-sign"></i> <b>You haven't logged any events yet!</b> <br/></div>
+
+    
+
+    <button id="monitor_now" class="btn btn-primary"><i class="icon-bolt"></i> Log Something</button><p>It’s impossible to remember everything you do, tracking activities makes it so you don’t have to.</p>
+   
+
+
+    <button id="schedule"  class="btn btn-success" > <i class="icon-lightbulb"></i> Plan Something</button><p>Planning things makes it more likely you’ll do them. Planning is a great way to boost positive activities</p>
+
+    <button id="review"  class="btn btn-info" > <i class="icon-tasks"></i> Review What You Did</button><p>It’s important to test your predictions about activities. After you've done something you planned, update the information now that you know how it turned out.</p>
+
+    <button id="go_to_events_calendar" class="btn btn-warning"><i class="icon-calendar"></i> See a Calendar of Everything</button><p>Tracking activities is the first step. Now, look over what you’ve done to learn more about your activities and mood and how they’re related.</p>
+
+    </nav>
+
+
+    <div id="events_calendar" class="hide"><h2 style="margin-top:.5em;"><a href="index.html"><i class="icon-chevron-left"></i></a> Events Calendar</h2><br/>
+      <div id="calendar"></div>
+      <div id="event_list"></div>
+    </div>
+    <div id="event_form" class="default_hidden"></div>
+</div>
+<div class="col-md-1"></div>
+        <!--Html-->
+</body>
+</html>

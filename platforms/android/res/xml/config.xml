@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="edu.northwestern.cbits.today" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <name>TODAY!</name>
+    <description>
+    	M Burns Study App
+    </description>
+    <author email="m-burns@northwestern.edu" href="http://cbits.northwestern.edu">
+			Michelle Burns
+    </author>
+    <icon src="icon.png" />
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
