@@ -253,16 +253,19 @@ app.actions.comingOut = function (id){
               removeList.push(index);
               }
               else{
-
+                if (app.values.comingOut.gamePlan.who[index] == undefined){
+                  app.values.comingOut.gamePlan.who[index] = {};
+                }
               app.values.comingOut.gamePlan.who[index].value = $(field).val();
               }
 
             });
 
-            removeList.reverse();
-            $.each(removeList, function(index,field){
-            app.values.comingOut.gamePlan.who.splice(index,1);
 
+            removeList.reverse();
+
+            $.each(removeList, function(index,field){
+                  app.values.comingOut.gamePlan.who.splice(field,1);
             });
 
 
