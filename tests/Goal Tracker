@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>Goal Tracker</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Goal Tracker</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-trophy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalLabel</td>
+	<td>Train my dog</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep1</td>
+	<td>Read about dog training</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep2</td>
+	<td>Take dog to training class</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep3</td>
+	<td>Buy treats for rewarding good behavior</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;1&quot;]</td>
+	<td>Train my dog</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Train my dog</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Read about dog training</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Take dog to training class</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Buy treats for rewarding good behavior</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-unchecked.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//i[@value='step2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//i[@value='step3']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;1&quot;]</td>
+	<td>Train my dog</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goalLabel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goalStep1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goalStep2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goalStep3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalLabel</td>
+	<td>Make Luna be a good kitty</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep1</td>
+	<td>Ignore bad behavior</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep2</td>
+	<td>Make a fuss over her when she's good</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep3</td>
+	<td>Get a &quot;scaaaatt&quot; cat spray</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;1&quot;]</td>
+	<td>Train my dog</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;2&quot;]</td>
+	<td>Make Luna be a good kitty</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Make Luna be a good kitty</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Ignore bad behavior</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Make a fuss over her when she's good</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Get a &quot;scaaaatt&quot; cat spray</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-unchecked.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//i[@value='step2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//i[@value='step3']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-label-modal</td>
+	<td>Make Luna be a good kitty</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=step1</td>
+	<td>Ignore bad behavior</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=step2</td>
+	<td>Make a fuss over her when she's good</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=step3</td>
+	<td>Get a 'scaaaatt' cat spray</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goal-label-modal</td>
+	<td>Make Luna be a good kitty2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=step1</td>
+	<td>Ignore bad behavior2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=step2</td>
+	<td>Make a fuss over her when she's good2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=step3</td>
+	<td>Get a &quot;scaaaatt&quot; cat spray2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=label.col-xs-2 &gt; i.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=strong</td>
+	<td>You should be proud of yourself!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Excellent work!</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-2x.icon-check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//i[@value='step3']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Excellent work!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=strong</td>
+	<td>You should be proud of yourself!</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-2x.icon-check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//i[@value='step3']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//i[@value='step3']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Make Luna be a good kitty2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Ignore bad behavior2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Make a fuss over her when she's good2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Get a &quot;scaaaatt&quot; cat spray2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;1&quot;]</td>
+	<td>Train my dog</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;2&quot;]</td>
+	<td>Make Luna be a good kitty2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Train my dog</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Read about dog training</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Take dog to training class</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Buy treats for rewarding good behavior</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goal-label-modal</td>
+	<td>Train my dog2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=step1</td>
+	<td>Read about dog training2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=step2</td>
+	<td>Take dog to training class2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=step3</td>
+	<td>Buy treats for rewarding good behavior2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Train my dog2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Read about dog training2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Take dog to training class2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Buy treats for rewarding good behavior2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//i[@value='step2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;1&quot;]</td>
+	<td>Train my dog2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;2&quot;]</td>
+	<td>Make Luna be a good kitty2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Train my dog2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Read about dog training2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Take dog to training class2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Buy treats for rewarding good behavior2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-unchecked.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;1&quot;]</td>
+	<td>Train my dog2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Train my dog2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Read about dog training2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Take dog to training class2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Buy treats for rewarding good behavior2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-unchecked.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//i[@value='step3']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//i[@value='step3']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalLabel</td>
+	<td>New goal</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep1</td>
+	<td>new step #1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep2</td>
+	<td>new step #2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=goalStep3</td>
+	<td>new step #3</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;2&quot;]</td>
+	<td>Make Luna be a good kitty2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;3&quot;]</td>
+	<td>New goal</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>New goal</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>new step #2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>new step #3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>new step #1</td>
+</tr>
+<tr>
+	<td>assertNotText</td>
+	<td>css=i.icon-check.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-unchecked.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;2&quot;]</td>
+	<td>Make Luna be a good kitty2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label[value=&quot;3&quot;]</td>
+	<td>New goal</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=em</td>
+	<td>Make Luna be a good kitty2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.form-group &gt; em</td>
+	<td>Ignore bad behavior2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[2]/em</td>
+	<td>Make a fuss over her when she's good2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='mainContainer']/div[2]/form/div[3]/em</td>
+	<td>Get a &quot;scaaaatt&quot; cat spray2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.icon-2x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-unchecked.icon-2x</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

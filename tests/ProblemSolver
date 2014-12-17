@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>Problem Solver</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Problem Solver</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=problemLabel</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=solutionName</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='solutionName'])[2]</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='solutionName'])[3]</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=problemGoal</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='problemGoal'])[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=problemLabel</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution0</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution1</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution2</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal-help0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=minimal-effects0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal-help1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=minimal-effects2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label.radio</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[2]</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[3]</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=optionsRadios-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Planner</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[2]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals0 &gt; dd</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals0']/dd[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=00</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=10</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=20</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=today-list-icon0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=problemLabel</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution0</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution1</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help1</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution2</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects2</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label.radio</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[2]</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[3]</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=optionsRadios-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[4]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals0 &gt; dd</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals0']/dd[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=00</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=10</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=20</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=problemLabel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=problemLabel</td>
+	<td>New problem</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=solutionName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='solutionName'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='solutionName'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=solutionName</td>
+	<td>new solution #1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='solutionName'])[2]</td>
+	<td>new solution #2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='solutionName'])[3]</td>
+	<td>new solution #3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=problemGoal</td>
+	<td>new goal #1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='problemGoal'])[2]</td>
+	<td>new goal #2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='problemGoal'])[3]</td>
+	<td>new goal #3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=problemLabel</td>
+	<td>New problem</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>new goal #1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[2]</td>
+	<td>new goal #2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[3]</td>
+	<td>new goal #3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution0</td>
+	<td>new solution #1</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help0</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects0</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution1</td>
+	<td>new solution #2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution2</td>
+	<td>new solution #3</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal-help1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=minimal-effects2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal-help2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal-help1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=goal-help0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=minimal-effects0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label.radio</td>
+	<td>new solution #1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[2]</td>
+	<td>new solution #2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[3]</td>
+	<td>new solution #3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[3]/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=optionsRadios-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[4]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals0 &gt; dd</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals0']/dd[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=00</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=10</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=20</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dd</td>
+	<td>New problem</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals1 &gt; dd</td>
+	<td>new goal #1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals1']/dd[2]</td>
+	<td>new goal #2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals1']/dd[3]</td>
+	<td>new goal #3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=01</td>
+	<td>new solution #1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=11</td>
+	<td>new solution #2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#11 &gt; i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=21</td>
+	<td>new solution #3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=today-list-icon0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=problemLabel</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution0</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution1</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help1</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution2</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects2</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=problem-label-modal</td>
+	<td>Luna keeps chewing up electronics wires</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=problemGoal</td>
+	<td>Save Luna from being electrocuted</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='problemGoal'])[2]</td>
+	<td>Keep my electronics wires in tact</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='problemGoal'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=solutionName</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='solutionName'])[2]</td>
+	<td>Get rid of all my electronics</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='solutionName'])[3]</td>
+	<td>scold Luna when I see her chewing wires</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=problem-label-modal</td>
+	<td>Luna keeps chewing up electronics wires2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=problemGoal</td>
+	<td>Save Luna from being electrocuted2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='problemGoal'])[2]</td>
+	<td>Keep my electronics wires in tact2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='problemGoal'])[3]</td>
+	<td>new Luna goal</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=solutionName</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='solutionName'])[2]</td>
+	<td>Get rid of all my electronics2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='solutionName'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='simplemodal-data']/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=problemLabel</td>
+	<td>Luna keeps chewing up electronics wires2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Save Luna from being electrocuted2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[2]</td>
+	<td>Keep my electronics wires in tact2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[3]</td>
+	<td>new Luna goal</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution0</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution1</td>
+	<td>Get rid of all my electronics2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help1</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects2</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=minimal-effects1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label.radio</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[2]</td>
+	<td>Get rid of all my electronics2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[2]/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=optionsRadios-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[4]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd</td>
+	<td>Luna keeps chewing up electronics wires2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals0 &gt; dd</td>
+	<td>Save Luna from being electrocuted2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals0']/dd[2]</td>
+	<td>Keep my electronics wires in tact2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=00</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=10</td>
+	<td>Get rid of all my electronics2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dd</td>
+	<td>New problem</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals1 &gt; dd</td>
+	<td>new goal #1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals1']/dd[2]</td>
+	<td>new goal #2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals1']/dd[3]</td>
+	<td>new goal #3</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=01</td>
+	<td>new solution #1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=11</td>
+	<td>new solution #2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#11 &gt; i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=21</td>
+	<td>new solution #3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=today-list-icon1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=problem-label-modal</td>
+	<td>New problem2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=problemGoal</td>
+	<td>new goal #12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='problemGoal'])[2]</td>
+	<td>new goal #22</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='problemGoal'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=solutionName</td>
+	<td>new solution #12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='solutionName'])[2]</td>
+	<td>new solution #22</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='solutionName'])[3]</td>
+	<td>new solution #32</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='simplemodal-data']/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=problem-label-modal</td>
+	<td>New problem2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=problemGoal</td>
+	<td>new goal #12</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='problemGoal'])[2]</td>
+	<td>new goal #22</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='problemGoal'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=solutionName</td>
+	<td>new solution #12</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='solutionName'])[2]</td>
+	<td>new solution #22</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='solutionName'])[3]</td>
+	<td>new solution #32</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='simplemodal-data']/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=problemLabel</td>
+	<td>New problem2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>new goal #12</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='desired-outcomes']/li[2]</td>
+	<td>new goal #22</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution0</td>
+	<td>new solution #12</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution1</td>
+	<td>new solution #22</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution2</td>
+	<td>new solution #32</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=goal-help2</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=minimal-effects2</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=minimal-effects2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label.radio</td>
+	<td>new solution #12</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[2]</td>
+	<td>new solution #22</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='solution-radios']/label[3]</td>
+	<td>new solution #32</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=optionsRadios-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[2]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd</td>
+	<td>Luna keeps chewing up electronics wires2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals0 &gt; dd</td>
+	<td>Save Luna from being electrocuted2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals0']/dd[2]</td>
+	<td>Keep my electronics wires in tact2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals0']/dd[3]</td>
+	<td>new Luna goal</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=00</td>
+	<td>Put a cayenne pepper paste on the wires to dissuade her2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=10</td>
+	<td>Get rid of all my electronics2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dd</td>
+	<td>New problem2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#goals1 &gt; dd</td>
+	<td>new goal #12</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='goals1']/dd[2]</td>
+	<td>new goal #22</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=01</td>
+	<td>new solution #12</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#01 &gt; i.icon-check.preferred-solution</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=11</td>
+	<td>new solution #22</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=21</td>
+	<td>new solution #32</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=problemLabel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=solutionName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='solutionName'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='solutionName'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=problemGoal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='problemGoal'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='problemGoal'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[4]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-cogs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd</td>
+	<td>Luna keeps chewing up electronics wires2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dd</td>
+	<td>New problem2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>Example Title: Boyfriend wants to meet parents, but I'm not out!</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=tbody &gt; tr &gt; td</td>
+	<td>Ask boyfriend to wait until ready to tell parents</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Keep good relationship with boyfriend</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=solution0</td>
+	<td>Ask boyfriend to wait until ready to tell parents</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

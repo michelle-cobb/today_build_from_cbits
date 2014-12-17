@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+
+    <title>TODAY</title>
+    <link href="js/vendor/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet">
+<!--     <link href="js/vendor/bootstrap/css/bootstrap-responsive.min.css" media="screen" rel="stylesheet"> --> 
+     <link href="js/vendor/fontawesome/css/font-awesome.min.css" media="screen" rel="stylesheet">
+    <link href="css/global.css" media="screen" rel="stylesheet">
+
+    <link href="http://code.jquery.com/ui/jquery-ui-git.css" media="screen" rel="stylesheet">
+    <script src="js/vendor/jquery-1.9.1.js"></script>
+    <script src="js/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/vendor/backbone-min.js"></script>
+    <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+            
+
+    <!--app JS-->
+    <script src="js/app/content.js"></script>
+
+    <script src="js/app/app.js"></script>
+
+    <!-- User-generated css -->
+
+    <style>
+    body{background:url(images/backgrounds.png); color:white; text-align: center;}
+    .widget {color:white; float:left;margin-left:1.25%; margin-right:1.25%; margin-top:10px; text-align:center;padding:1%; border-radius: 2px;}
+    .size_width1{width:28.80%; }
+    .size_width2{width:58%; }
+    .size_width3{width:87%; }
+    .size_height1{height:100px;}
+    .size_height2{height:200px;}
+    .size_height3{height:300px;}
+    .size_height0 i {display:block;font-size:3em;margin-top:.25em;}
+    .size_height1 i {display:block;font-size:3em;margin-top:.25em;}
+    .size_height2 i {display:block;font-size:6em;margin:0;}
+    .size_height1 i img {height:55px;}
+    .size_height2 i img {width:75%;}
+    .widget h3 {font-weight:normal; font-size:1.2em; letter-spacing: 0; line-height: 1.2em; margin-top:0;}
+    li{text-align: left;}
+    ul {text-align: left;}
+
+    a{display:block;}
+    </style>
+
+    <script>
+    try {
+         $(document).ready(function () {
+
+        // app.start();
+
+        $.fn.serializeObject = function()
+                    {
+                        var o = {};
+                        var a = this.serializeArray();
+                        $.each(a, function() {
+                            if (o[this.name] !== undefined) {
+                                if (!o[this.name].push) {
+                                    o[this.name] = [o[this.name]];
+                                }
+                                o[this.name].push(this.value || '');
+                            } else {
+                                o[this.name] = this.value || '';
+                            }
+                        });
+                        return o;
+                    };
+
+        $("#show_id").on("submit", function(ev){
+ 
+
+        var page_to_show = parseInt($("#show_id").serializeObject().id);
+            console.log(page_to_show);
+                ev.preventDefault();
+            $("body").html(_.where(app.contents,{id:page_to_show})[0].main_content);
+            app.actions.default();
+
+        })
+
+         });
+
+    } catch (error) {
+    console.error("Your javascript has an error: " + error);
+    }
+    </script>
+</head>
+
+<body>
+
+    <h2 style="color:white;">Show me a page NOW!</h2>
+    <br/>
+   <form name="show_id" id="show_id">
+<br/>
+    <input type="text" name="id">
+ <br/>
+    <input type="submit" id="show_page">
+   </form>
+</body>
+
+<script>
+window.addEventListener("load",function() {
+  // Set a timeout...
+  setTimeout(function(){
+    // Hide the address bar!
+    window.scrollTo(0, 1);
+  }, 0);
+});</script>
+
+</html>

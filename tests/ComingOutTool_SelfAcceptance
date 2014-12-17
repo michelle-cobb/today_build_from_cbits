@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>ComingOutTool_SelfAcceptance</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ComingOutTool_SelfAcceptance</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-question-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-star</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=positiveQualities</td>
+	<td>My boyfriend</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[2]</td>
+	<td>The LGBT community</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[3]</td>
+	<td>Center on Halsted</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[4]</td>
+	<td>My piano playing skills</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[5]</td>
+	<td>Good writer</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=futureExcited</td>
+	<td>Getting married</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[2]</td>
+	<td>Adopting children</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[3]</td>
+	<td>Becoming a musician</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[4]</td>
+	<td>Having my own apartment</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[5]</td>
+	<td>Living closer to downtown</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-question-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='positive-qualities']/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>What I like about me!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>My boyfriend</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='qualities-list']/li[2]</td>
+	<td>The LGBT community</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='qualities-list']/li[3]</td>
+	<td>Center on Halsted</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='qualities-list']/li[4]</td>
+	<td>My piano playing skills</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='qualities-list']/li[5]</td>
+	<td>Good writer</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-question-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='looking-ahead']/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Getting married</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='future-list']/li[2]</td>
+	<td>Adopting children</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='future-list']/li[3]</td>
+	<td>Becoming a musician</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='future-list']/li[4]</td>
+	<td>Having my own apartment</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='future-list']/li[5]</td>
+	<td>Living closer to downtown</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[8]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Getting a better understanding of sexuality</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[8]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=positiveQualities</td>
+	<td>My boyfriend</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[2]</td>
+	<td>The LGBT community</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[3]</td>
+	<td>Center on Halsted</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[4]</td>
+	<td>My piano playing skills</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[5]</td>
+	<td>Good writer</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=positiveQualities</td>
+	<td>My boyfriend2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[2]</td>
+	<td>The LGBT community2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[3]</td>
+	<td>Center on Halsted2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[4]</td>
+	<td>My piano playing skills2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=futureExcited</td>
+	<td>Getting married2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[2]</td>
+	<td>Adopting children2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[3]</td>
+	<td>Becoming a musician2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[4]</td>
+	<td>Having my own apartment2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-question-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div[4]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-smile</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>My boyfriend2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='qualities-list']/li[2]</td>
+	<td>The LGBT community2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='qualities-list']/li[3]</td>
+	<td>Center on Halsted2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='qualities-list']/li[4]</td>
+	<td>My piano playing skills2</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='qualities-list']/li[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-question-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div[4]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-share-alt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Getting married2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='future-list']/li[2]</td>
+	<td>Adopting children2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='future-list']/li[3]</td>
+	<td>Becoming a musician2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='future-list']/li[4]</td>
+	<td>Having my own apartment2</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='future-list']/li[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[8]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=positiveQualities</td>
+	<td>My boyfriend2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[2]</td>
+	<td>The LGBT community2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[3]</td>
+	<td>Center on Halsted2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[4]</td>
+	<td>My piano playing skills2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='positiveQualities'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='positiveQualities'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=futureExcited</td>
+	<td>Getting married2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='futureExcited'])[2]</td>
+	<td>Adopting children2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='futureExcited'])[3]</td>
+	<td>Becoming a musician2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='futureExcited'])[4]</td>
+	<td>Having my own apartment2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='futureExcited'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@id='futureExcited'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-question-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-smile</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>My boyfriend2</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='qualities-list']/li[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='qualities-list']/li[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='qualities-list']/li[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='qualities-list']/li[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-question-sign</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div[4]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='looking-ahead']/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Getting married2</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='future-list']/li[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='future-list']/li[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='future-list']/li[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//ul[@id='future-list']/li[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
