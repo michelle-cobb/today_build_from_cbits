@@ -245,7 +245,18 @@ app.actions.comingOut = function (id){
           var inputArray = $('[type="text"]');
           if(app.values.comingOut.gamePlan.who.length > 0){
             $.each(inputArray, function (index, field){
+
+              if ($(field).val() == ""){
+                        debugger;
+
+              app.values.comingOut.gamePlan.who.splice(index,1);
+              }
+              else{
+                        debugger;
+
               app.values.comingOut.gamePlan.who[index].value = $(field).val();
+              }
+
             });
           }
           else{
