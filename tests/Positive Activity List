@@ -307,8 +307,128 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>outAndAboutTown-0</td>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-22</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-23</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-3</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-4</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-5</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-6</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-7</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-8</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-9</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-10</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-11</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-12</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-13</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-14</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-15</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-16</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-17</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-18</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-19</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-20</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=outAndAboutTown-21</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
 	<td></td>
 </tr>
 <tr>
@@ -317,8 +437,133 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>outAndAboutTown-23</td>
+	<td>verifyValue</td>
+	<td>id=beSocial-0</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-1</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-15</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-16</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-3</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-4</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-5</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-6</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-7</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-8</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-9</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-10</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-11</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-12</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-13</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-14</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-17</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-18</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-19</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-20</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-21</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-22</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-23</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=beSocial-24</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
 	<td></td>
 </tr>
 <tr>
@@ -327,8 +572,173 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>outAndAboutTown-22</td>
+	<td>verifyValue</td>
+	<td>id=aloneTime-29</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-30</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-31</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-32</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-0</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-1</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-3</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-4</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-5</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-6</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-7</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-8</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-9</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-10</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-11</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-12</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-13</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-14</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-15</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-16</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-17</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-18</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-19</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-20</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-21</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-22</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-23</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-24</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-25</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-26</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-27</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=aloneTime-28</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -342,89 +752,79 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>beSocial-0</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-0</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-1</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>beSocial-1</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-2</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-3</td>
+	<td>on</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>beSocial-15</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-4</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-5</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>beSocial-16</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-6</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-7</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>name=saveButton</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-8</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-9</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>aloneTime-29</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-10</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-11</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>aloneTime-30</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-12</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-13</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>aloneTime-31</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertChecked</td>
-	<td>aloneTime-32</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=pamperYourself-14</td>
+	<td>on</td>
 </tr>
 <tr>
 	<td>pause</td>
@@ -442,19 +842,64 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>pamperYourself-3</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=getInvolved-0</td>
+	<td>on</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=getInvolved-1</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>pamperYourself-14</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=getInvolved-2</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-3</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-4</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-5</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-6</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-7</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-8</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-9</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-10</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=getInvolved-11</td>
+	<td>on</td>
 </tr>
 <tr>
 	<td>pause</td>
@@ -472,59 +917,169 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>getInvolved-0</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-0</td>
+	<td>on</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-1</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>getInvolved-7</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-2</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-3</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>getInvolved-11</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-4</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-5</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>name=saveButton</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-6</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-7</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>assertChecked</td>
-	<td>workUpASweat-0</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-8</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-9</td>
+	<td>off</td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>null</td>
-	<td></td>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-10</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-11</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-12</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-13</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-14</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-15</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-16</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-17</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-18</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-19</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-20</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-21</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-22</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-23</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-24</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-25</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-26</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-27</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-28</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-29</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-30</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-31</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=workUpASweat-32</td>
+	<td>off</td>
 </tr>
 <tr>
 	<td>pause</td>
@@ -581,6 +1136,97 @@
 	<td>5</td>
 	<td></td>
 </tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li</td>
+	<td>Make a gift for someone</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul/li[2]</td>
+	<td>Study</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul/li[3]</td>
+	<td>Plan your career</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul/li[4]</td>
+	<td>Clean out your closet, get rid of things you don't need</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[2]/li</td>
+	<td>Go on a date</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[2]/li[2]</td>
+	<td>Accept an invitation to go out</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[2]/li[3]</td>
+	<td>Catch up with an old friend, reminisce about the past</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[2]/li[4]</td>
+	<td>Join a band or have a jam session</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[3]/li</td>
+	<td>Join a gym</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[3]/li[2]</td>
+	<td>Donate to charity</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[3]/li[3]</td>
+	<td>Join a club or organization, attend its meetings</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[4]/li</td>
+	<td>Go to a street fair or carnival</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[4]/li[2]</td>
+	<td>Go to a second-hand shop and try on something fun</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[4]/li[3]</td>
+	<td>Go to an arcade</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[5]/li</td>
+	<td>Style your hair</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[5]/li[2]</td>
+	<td>Eat a balanced meal</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='simplemodal-data']/ul[6]/li</td>
+	<td>Take a quick walk</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=close</td>
+	<td></td>
+</tr>
+<!--now make sure we can add and remove things from the PA list, and it shows up in the list and the Planner link-->
 </tbody></table>
 </body>
 </html>

@@ -4,37 +4,27 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://localhost:8080/" />
-<title>Planner</title>
+<title>Go to homepage 2</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Planner</td></tr>
+<tr><td rowspan="1" colspan="3">Go to homepage 2</td></tr>
 </thead><tbody>
 <tr>
-	<td>click</td>
-	<td>css=i.icon-briefcase</td>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>//div[@id='mainContainer']/div[2]/div[3]/div[2]/div/h3</td>
+	<td>css=i.icon-home.icon-4x</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>name=nextButton</td>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=plan</td>
-	<td>Take Luna for a walk</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=what</td>
-	<td>label=Errand/Chore</td>
 </tr>
 </tbody></table>
 </body>

@@ -293,7 +293,17 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>xpath=(//input[@name='Luna'])[2]</td>
+	<td>xpath=(//input[@name='Bobby'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=friends</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=Sue</td>
 	<td></td>
 </tr>
 <tr>
@@ -577,6 +587,31 @@
 	<td></td>
 </tr>
 <tr>
+	<td>verifyValue</td>
+	<td>name=who</td>
+	<td>family</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[2]</td>
+	<td>friends</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[3]</td>
+	<td>coworkers</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[4]</td>
+	<td>Bobby</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[5]</td>
+	<td>Sue</td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>name=who</td>
 	<td></td>
@@ -649,7 +684,7 @@
 <tr>
 	<td>verifyValue</td>
 	<td>css=input[name=&quot;John Doe&quot;]</td>
-	<td></td>
+	<td>she'll be supportive</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -658,7 +693,7 @@
 </tr>
 <tr>
 	<td>type</td>
-	<td>name=Luna</td>
+	<td>name=Bobby</td>
 	<td>not sure2</td>
 </tr>
 <tr>
@@ -719,7 +754,7 @@
 <tr>
 	<td>verifyValue</td>
 	<td>css=input[name=&quot;John Doe&quot;]</td>
-	<td></td>
+	<td>we're close like brother and sister</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -733,7 +768,7 @@
 </tr>
 <tr>
 	<td>type</td>
-	<td>name=Luna</td>
+	<td>name=Bobby</td>
 	<td>we've been distant2</td>
 </tr>
 <tr>
@@ -774,7 +809,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//form[@id='where-form']/div[2]/div</td>
-	<td>Luna</td>
+	<td>Bobby</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -794,7 +829,7 @@
 <tr>
 	<td>verifyValue</td>
 	<td>css=input[name=&quot;John Doe&quot;]</td>
-	<td></td>
+	<td>when we hang out again</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -843,7 +878,7 @@
 </tr>
 <tr>
 	<td>verifyValue</td>
-	<td>xpath=(//input[@name='Luna'])[2]</td>
+	<td>xpath=(//input[@name='Bobby'])[2]</td>
 	<td>on</td>
 </tr>
 <tr>
@@ -984,7 +1019,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//ul[@id='today-list']/li[2]/dl/dt[5]</td>
-	<td>spontaneous</td>
+	<td>planned</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -1089,27 +1124,27 @@
 <tr>
 	<td>verifyValue</td>
 	<td>name=who</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyValue</td>
-	<td>xpath=(//input[@name='who'])[2]</td>
 	<td>friends</td>
 </tr>
 <tr>
 	<td>verifyValue</td>
-	<td>xpath=(//input[@name='who'])[3]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyValue</td>
-	<td>xpath=(//input[@name='who'])[4]</td>
+	<td>xpath=(//input[@name='who'])[2]</td>
 	<td>Bobby</td>
 </tr>
 <tr>
 	<td>verifyValue</td>
-	<td>xpath=(//input[@name='who'])[5]</td>
+	<td>xpath=(//input[@name='who'])[3]</td>
 	<td>John Doe</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[5]</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
@@ -1208,7 +1243,7 @@
 </tr>
 <tr>
 	<td>verifyValue</td>
-	<td>name=Luna</td>
+	<td>name=Bobby</td>
 	<td>when we're fishing2</td>
 </tr>
 <tr>
@@ -1248,7 +1283,7 @@
 </tr>
 <tr>
 	<td>verifyValue</td>
-	<td>name=Bobby</td>
+	<td>xpath=(//input[@name='Bobby'])[2]</td>
 	<td>on</td>
 </tr>
 <tr>
@@ -1298,7 +1333,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//div[@id='mainContainer']/div/div[8]/h3</td>
+	<td>css=i.icon-question-sign</td>
 	<td></td>
 </tr>
 <tr>
@@ -1308,7 +1343,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td>css=i.icon-pencil</td>
 	<td></td>
 </tr>
 <tr>
@@ -1356,7 +1391,622 @@
 	<td>5</td>
 	<td></td>
 </tr>
-
+<!--now we're going to verify that we can ADD a person to the game plan and retrieve them correctly-->
+<tr>
+	<td>verifyValue</td>
+	<td>name=who</td>
+	<td>friends</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[2]</td>
+	<td>Bobby</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[3]</td>
+	<td>John Doe</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='who'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='who'])[4]</td>
+	<td>new person</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=friends</td>
+	<td>neutral2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=Bobby</td>
+	<td>not sure2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;John Doe&quot;]</td>
+	<td>new reaction</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.col-xs-3</td>
+	<td>friends</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='reaction-form']/div[2]/div</td>
+	<td>Bobby</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='reaction-form']/div[3]/div</td>
+	<td>John Doe</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='reaction-form']/div[4]/div</td>
+	<td>new person</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td>new person's reaction</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=friends</td>
+	<td>good2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=Bobby</td>
+	<td>we've been distant2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;John Doe&quot;]</td>
+	<td>new status</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.col-xs-3</td>
+	<td>friends</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='relationship-form']/div[2]/div</td>
+	<td>Bobby</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='relationship-form']/div[3]/div</td>
+	<td>John Doe</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='relationship-form']/div[4]/div</td>
+	<td>new person</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td>new person's status</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=friends</td>
+	<td>one at a time, over the phone2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=Bobby</td>
+	<td>when we're fishing2</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;John Doe&quot;]</td>
+	<td>new location</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.col-xs-3</td>
+	<td>friends</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='where-form']/div[2]/div</td>
+	<td>Bobby</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='where-form']/div[3]/div</td>
+	<td>John Doe</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='where-form']/div[4]/div</td>
+	<td>new person</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td>new person's location</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.col-xs-6</td>
+	<td>friends</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='plan-form']/div[2]/div</td>
+	<td>Bobby</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='plan-form']/div[3]/div</td>
+	<td>John Doe</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='plan-form']/div[4]/div</td>
+	<td>new person</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=friends</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='friends'])[2]</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>name=Bobby</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='Bobby'])[2]</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;John Doe&quot;]</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='John Doe'])[2]</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='new person'])[2]</td>
+	<td>off</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[name=&quot;new person&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea.form-control</td>
+	<td>I have a boyfriend. I'm not sure if I'm gay or bisexual, but I really like him.&nbsp;&nbsp;I hope you'll understand. Speech3.</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div/div[8]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div[5]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dt</td>
+	<td>friends</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd</td>
+	<td>neutral2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li/dl/dd[2]</td>
+	<td>good2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li/dl/dd[3]</td>
+	<td>one at a time, over the phone2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li/dl/dt[5]</td>
+	<td>spontaneous</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dt</td>
+	<td>Bobby</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dd</td>
+	<td>not sure2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dd[2]</td>
+	<td>we've been distant2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dd[3]</td>
+	<td>when we're fishing2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[2]/dl/dt[5]</td>
+	<td>planned</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[3]/dl/dt</td>
+	<td>John Doe</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[3]/dl/dd</td>
+	<td>new reaction</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[3]/dl/dd[2]</td>
+	<td>new status</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[3]/dl/dd[3]</td>
+	<td>new location</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[3]/dl/dt[5]</td>
+	<td>planned</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[4]/dl/dt</td>
+	<td>new person</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[4]/dl/dd</td>
+	<td>new person's reaction</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[4]/dl/dd[2]</td>
+	<td>new person's status</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[4]/dl/dd[3]</td>
+	<td>new person's location</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//ul[@id='today-list']/li[4]/dl/dt[5]</td>
+	<td>spontaneous</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=coming-out-speech</td>
+	<td>I have a boyfriend. I'm not sure if I'm gay or bisexual, but I really like him. I hope you'll understand. Speech3.</td>
+</tr>
 </tbody></table>
 </body>
 </html>

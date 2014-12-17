@@ -1377,6 +1377,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=h2</td>
 	<td>Listing your support</td>

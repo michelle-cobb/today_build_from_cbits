@@ -8,8 +8,11 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="Thought Record">Thought Record</a></td></tr>
-<tr><td><a href="ThoughtRecord-2Cases">Thought Record for Mark-do not check on the 1st thought record b4 we add a 2nd</a></td></tr>
+<tr><td><a href="ComingOutTool_GamePlan">ComingOutTool_GamePlan</a></td></tr>
+<tr><td><a href="Go to homepage">Go to homepage</a></td></tr>
+<tr><td><a href="ComingOutTool_SelfAcceptance">ComingOutTool_SelfAcceptance</a></td></tr>
+<tr><td><a href="Go to homepage 2">Go to homepage 2</a></td></tr>
+<tr><td><a href="ComingOutTool_SupportNetwork">ComingOutTool_SupportNetwork</a></td></tr>
 </tbody></table>
 </body>
 </html>

@@ -12,11 +12,6 @@
 <tr><td rowspan="1" colspan="3">TRAP/TRAC tool</td></tr>
 </thead><tbody>
 <tr>
-	<td>open</td>
-	<td>/#/general/1719</td>
-	<td></td>
-</tr>
-<tr>
 	<td>click</td>
 	<td>css=i.icon-briefcase</td>
 	<td></td>
@@ -612,7 +607,6 @@
 	<td>id=getBackOnTrac</td>
 	<td>CalendarGoalTrackerPositive Activity ListThought RecordCoping CardProblem Solver</td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
