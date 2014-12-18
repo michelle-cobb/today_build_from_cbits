@@ -12,11 +12,6 @@
 <tr><td rowspan="1" colspan="3">Responsibility Pie</td></tr>
 </thead><tbody>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
-</tr>
-<tr>
 	<td>click</td>
 	<td>css=i.icon-briefcase</td>
 	<td></td>
@@ -128,7 +123,32 @@
 </tr>
 <tr>
 	<td>verifyText</td>
+	<td>css=g.highcharts-data-labels.highcharts-tracker &gt; g &gt; text</td>
+	<td>me</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>I</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Luna</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>myself</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>css=rect..highcharts-background</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -137,18 +157,48 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>xpath=(//input[@name='nextButton'])[3]</td>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>xpath=(//input[@name='nextButton'])[4]</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-legal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -157,8 +207,18 @@
 	<td>exact:Feeling Guilty? These activities are meant to help you manage your guilt or shame. Try one out now!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>xpath=(//input[@name='nextButton'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -172,8 +232,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -247,6 +317,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>name=toolq</td>
 	<td>new person #1</td>
@@ -272,14 +347,19 @@
 	<td>me</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>name=nextButton</td>
 	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>css=input[name=&quot;new person #1&quot;]</td>
-	<td>0</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
@@ -307,13 +387,68 @@
 	<td>50</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>name=nextButton</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=g &gt; text &gt; tspan</td>
+	<td>new person #1</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>new person #2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>new person #3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>new person #4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>me</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>myself</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>I</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Luna</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=rect..highcharts-background</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -426,8 +561,58 @@
 	<td>name=nextButton</td>
 	<td></td>
 </tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=g.highcharts-series.highcharts-tracker &gt; path</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=g.highcharts-data-labels.highcharts-tracker &gt; g &gt; text</td>
+	<td>newnew</td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>new person #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>new person #2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>new person #3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>new person #4</td>
+	<td></td>
+</tr>
+<!--note we can't verify that "me" isn't present, because the word "blame" is on the page-->
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>myself</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>I</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>Luna</td>
+	<td></td>
+</tr>
 <!--now visually inspect the graph to make sure you only see 100% responsibility for "newnew" and that the old values of the pie graph are no longer here-->
-
 </tbody></table>
 </body>
 </html>

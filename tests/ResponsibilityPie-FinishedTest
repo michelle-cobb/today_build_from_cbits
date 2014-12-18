@@ -12,11 +12,6 @@
 <tr><td rowspan="1" colspan="3">Responsibility Pie</td></tr>
 </thead><tbody>
 <tr>
-	<td>pause</td>
-	<td>5</td>
-	<td></td>
-</tr>
-<tr>
 	<td>click</td>
 	<td>css=i.icon-briefcase</td>
 	<td></td>
@@ -143,12 +138,17 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>xpath=(//input[@name='nextButton'])[3]</td>
+	<td>css=i.icon-briefcase</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>xpath=(//input[@name='nextButton'])[4]</td>
+	<td>//div[@id='mainContainer']/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-legal</td>
 	<td></td>
 </tr>
 <tr>
@@ -427,7 +427,46 @@
 	<td></td>
 </tr>
 <!--now visually inspect the graph to make sure you only see 100% responsibility for "newnew" and that the old values of the pie graph are no longer here-->
-
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>exact:Feeling Guilty? These activities are meant to help you manage your guilt or shame. Try one out now!</td>
+</tr>
 </tbody></table>
 </body>
 </html>

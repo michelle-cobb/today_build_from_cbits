@@ -12,8 +12,18 @@
 <tr><td rowspan="1" colspan="3">TRAP/TRAC tool</td></tr>
 </thead><tbody>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -22,8 +32,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=div.content_panel &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -32,13 +52,28 @@
 	<td>Trigger (sample)</td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>name=nextButton</td>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -47,9 +82,19 @@
 	<td>Luna's temper tantrums</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>id=response</td>
 	<td>label=Annoyed</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
@@ -57,9 +102,19 @@
 	<td>Work late to avoid her</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=consequence</td>
 	<td>Don't get the housecleaning done</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>select</td>
@@ -67,13 +122,28 @@
 	<td>label=Self-Soothing</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>id=getBackOnTrac</td>
 	<td>label=Positive Activity List</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -82,13 +152,28 @@
 	<td>Positive Activities List</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -97,8 +182,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=div.content_panel &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -107,9 +202,19 @@
 	<td>Luna's temper tantrums</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>//ul[@id='today-list']/li/dl/dd[2]</td>
 	<td>Annoyed</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -117,8 +222,18 @@
 	<td>Work late to avoid her</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -127,9 +242,19 @@
 	<td>Luna's temper tantrums</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifySelectedLabel</td>
 	<td>id=response</td>
 	<td>Annoyed</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyValue</td>
@@ -137,9 +262,19 @@
 	<td>Work late to avoid her</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyValue</td>
 	<td>id=consequence</td>
 	<td>Don't get the housecleaning done</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifySelectedLabel</td>
@@ -147,9 +282,19 @@
 	<td>Self-Soothing</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifySelectedLabel</td>
 	<td>id=getBackOnTrac</td>
 	<td>Positive Activity List</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
@@ -157,9 +302,19 @@
 	<td>Luna's temper tantrums2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>id=response</td>
 	<td>label=Down</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
@@ -167,9 +322,19 @@
 	<td>Work late to avoid her2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=consequence</td>
 	<td>Don't get the housecleaning done2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>select</td>
@@ -177,13 +342,28 @@
 	<td>label=Rehearsing Helpful Thoughts</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>id=getBackOnTrac</td>
 	<td>label=Thought Record</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -192,8 +372,18 @@
 	<td>Think. Feel. Rethink.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -202,13 +392,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=div.content_panel &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -217,9 +422,19 @@
 	<td>Luna's temper tantrums2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>//ul[@id='today-list']/li/dl/dd[2]</td>
 	<td>Down</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -227,8 +442,18 @@
 	<td>Work late to avoid her2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -237,9 +462,19 @@
 	<td>Luna's temper tantrums2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifySelectedLabel</td>
 	<td>id=response</td>
 	<td>Down</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyValue</td>
@@ -247,9 +482,19 @@
 	<td>Work late to avoid her2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyValue</td>
 	<td>id=consequence</td>
 	<td>Don't get the housecleaning done2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifySelectedLabel</td>
@@ -257,13 +502,28 @@
 	<td>Rehearsing Helpful Thoughts</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>id=getBackOnTrac</td>
 	<td>label=Calendar</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -272,8 +532,18 @@
 	<td>Planner</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -282,8 +552,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -292,8 +572,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -302,8 +592,18 @@
 	<td>label=Coping Card</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -312,8 +612,18 @@
 	<td>Confront, Overcome, Persevere, Encourage!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -322,8 +632,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -332,8 +652,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -342,8 +672,18 @@
 	<td>label=Problem Solver</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -352,8 +692,18 @@
 	<td>Problem Solver</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -362,8 +712,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -372,8 +732,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyValue</td>
 	<td>id=trigger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -382,8 +752,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyValue</td>
 	<td>id=consequence</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -392,9 +772,19 @@
 	<td>new trap</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>id=response</td>
 	<td>label=Ashamed</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
@@ -402,9 +792,19 @@
 	<td>procrastination</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=consequence</td>
 	<td>nothing gets done</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>select</td>
@@ -412,13 +812,28 @@
 	<td>label=Break it Down!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>id=getBackOnTrac</td>
 	<td>label=Calendar</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -427,8 +842,18 @@
 	<td>Planner</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -437,8 +862,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -447,9 +882,19 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=dd</td>
 	<td>Luna's temper tantrums2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -457,9 +902,19 @@
 	<td>Down</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>//ul[@id='today-list']/li/dl/dd[3]</td>
 	<td>Work late to avoid her2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -467,9 +922,19 @@
 	<td>new trap</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>//ul[@id='today-list']/li[2]/dl/dd[2]</td>
 	<td>Ashamed</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -477,8 +942,18 @@
 	<td>procrastination</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -487,9 +962,19 @@
 	<td>Luna's temper tantrums2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifySelectedLabel</td>
 	<td>id=response</td>
 	<td>Down</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyValue</td>
@@ -497,9 +982,19 @@
 	<td>Work late to avoid her2</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyValue</td>
 	<td>id=consequence</td>
 	<td>Don't get the housecleaning done2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifySelectedLabel</td>
@@ -512,8 +1007,18 @@
 	<td>Problem Solver</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -522,13 +1027,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=div.content_panel &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -562,8 +1082,18 @@
 	<td>procrastination</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>xpath=(//i[@id='undefined'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -572,9 +1102,19 @@
 	<td>new trap</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifySelectedLabel</td>
 	<td>id=response</td>
 	<td>Ashamed</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyValue</td>
@@ -596,7 +1136,7 @@
 	<td>id=getBackOnTrac</td>
 	<td>Calendar</td>
 </tr>
-<!--this tests for the bug where some options aren't being shown in this list depending on what the user selected when they added this trap-->
+<!--tests the problem where whatever is pre-selected is listed twice in these lists, and takes the place of one of the options that should be in the list.-->
 <tr>
 	<td>verifyText</td>
 	<td>id=alternateCopingStrategy</td>
@@ -606,6 +1146,312 @@
 	<td>verifyText</td>
 	<td>id=getBackOnTrac</td>
 	<td>CalendarGoalTrackerPositive Activity ListThought RecordCoping CardProblem Solver</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=getBackOnTrac</td>
+	<td>label=Coping Card</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Confront, Overcome, Persevere, Encourage!</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=trigger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=pattern</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=consequence</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=trigger</td>
+	<td>new new</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=response</td>
+	<td>label=Anxious</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pattern</td>
+	<td>new new AP</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=consequence</td>
+	<td>new new conseq</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=alternateCopingStrategy</td>
+	<td>label=Break it Down!</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Welcome to the Goal Tracker!</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<!--now go to edit one of the old TRAPS, but click home instead of save. Make sure it doesn't pre-populate a NEW TRAP with the values of the old one.-->
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.content_panel &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=pattern</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=trigger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=consequence</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>

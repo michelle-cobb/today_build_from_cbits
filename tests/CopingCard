@@ -603,6 +603,166 @@
 	<td></td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div/div/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=timeBasedMessage</td>
+	<td>don't save</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cardLabel</td>
+	<td>dont save me</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=situationBasedMessage</td>
+	<td>don't save this</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cardLabel</td>
+	<td>dont' save this either</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li.time-card.color1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=timeBasedMessage</td>
+	<td>don't save2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cardLabel</td>
+	<td>dont save me2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li.situation-card.color4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-lightbulb</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[3]/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
 	<td>pause</td>
 	<td>5</td>
 	<td></td>
@@ -1247,6 +1407,8 @@
 	<td>id=cardLabel</td>
 	<td>Lonely at home alone sitting around</td>
 </tr>
+<!--now test the bug where if you view an old tool and hit Home without saving, those values are prepopulated when you go to add a new tool-->
+<!--test this with both time based and situation based coping cards-->
 </tbody></table>
 </body>
 </html>

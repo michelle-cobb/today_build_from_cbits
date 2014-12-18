@@ -13,7 +13,7 @@
 </thead><tbody>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -23,7 +23,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -33,7 +33,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -43,7 +43,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -63,7 +63,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -73,7 +73,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -83,7 +83,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -93,7 +93,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -103,7 +103,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -113,7 +113,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -123,7 +123,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -133,7 +133,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -143,7 +143,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>500</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -157,8 +157,18 @@
 	<td>Five Senses</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -167,13 +177,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-1</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -182,8 +207,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -192,8 +227,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -202,8 +247,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -212,8 +267,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -222,8 +287,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -232,13 +307,28 @@
 	<td>Let's turn it around!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=p</td>
 	<td>We hear you-- you're not feeling good. Try turning your mood around by doing an In the Moment Tool.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>xpath=(//input[@name='nextButton'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -247,8 +337,18 @@
 	<td>exact:Feeling bored? Try these tips to get you going!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -257,13 +357,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-1</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -272,8 +387,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -282,8 +407,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -292,8 +427,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -302,8 +447,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -312,8 +467,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -327,8 +492,18 @@
 	<td>We hear you-- you're not feeling good. Try turning your mood around by doing an In the Moment Tool.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>xpath=(//input[@name='nextButton'])[6]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -337,13 +512,28 @@
 	<td>exact:Feeling stressed?</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -352,8 +542,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -362,8 +562,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -372,8 +582,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -382,8 +602,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -392,8 +622,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -402,8 +642,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -417,8 +667,18 @@
 	<td>We hear you-- you're not feeling good. Try turning your mood around by doing an In the Moment Tool.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>xpath=(//input[@name='nextButton'])[7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -427,8 +687,18 @@
 	<td>exact:Feeling lonely?</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -437,13 +707,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-2</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -452,8 +737,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -462,8 +757,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -472,8 +777,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -482,8 +797,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -492,8 +817,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -502,13 +837,28 @@
 	<td>Let's turn it around!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=p</td>
 	<td>We hear you-- you're not feeling good. Try turning your mood around by doing an In the Moment Tool.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -517,8 +867,18 @@
 	<td>If you're feeling angry, these activities are meant to cool you down!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -527,13 +887,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-2</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -542,8 +917,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -552,13 +937,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-5</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -567,8 +967,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -577,8 +987,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -587,8 +1007,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -597,8 +1027,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -612,8 +1052,18 @@
 	<td>We hear you-- you're not feeling good. Try turning your mood around by doing an In the Moment Tool.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -622,8 +1072,18 @@
 	<td>exact:Feeling down? These activities are meant to help you start feeling better! Give them a try!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -632,13 +1092,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-2</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -647,13 +1122,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-3</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -662,8 +1152,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=withPeople-6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -672,8 +1172,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -682,8 +1192,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -692,8 +1212,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -702,8 +1232,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -717,8 +1257,18 @@
 	<td>We hear you-- you're not feeling good. Try turning your mood around by doing an In the Moment Tool.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>xpath=(//input[@name='nextButton'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -727,8 +1277,18 @@
 	<td>exact:Worried? We can help with that! Try these tips to help soothe your nerves!</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -737,13 +1297,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-3</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -752,13 +1327,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-3</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -767,8 +1357,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -777,8 +1377,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -787,8 +1397,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -797,8 +1417,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -807,9 +1437,9 @@
 	<td>Thanks for checking in!</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=p</td>
-	<td>It sounds like things are going alright. Thanks for rating your mood!</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
@@ -817,8 +1447,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -827,8 +1467,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -837,13 +1487,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-1</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -852,8 +1517,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -862,8 +1537,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -872,8 +1557,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -882,8 +1577,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -892,13 +1597,18 @@
 	<td>Thanks for checking in!</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=p</td>
-	<td>While they might not be great, things aren’t too bad right now. Hang in there and check back in if your mood gets better or worse.</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -907,8 +1617,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -917,8 +1637,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -927,8 +1657,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -937,8 +1677,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -947,8 +1697,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -957,8 +1717,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -967,8 +1737,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -977,13 +1757,18 @@
 	<td>Thanks for checking in!</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=p</td>
-	<td>You're on track to feeling great. Keep in mind those things that always help lift your mood.</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -992,13 +1777,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-4</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1007,13 +1807,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-1</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1022,8 +1837,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1032,8 +1857,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1042,8 +1877,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1052,8 +1897,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1062,13 +1917,18 @@
 	<td>Thanks for checking in!</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=p</td>
-	<td>It sounds like things are going well! Keep up the good work!</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1077,8 +1937,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1087,8 +1957,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1097,8 +1977,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1107,8 +1997,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1117,8 +2017,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1127,8 +2037,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1137,8 +2057,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1147,13 +2077,18 @@
 	<td>Thanks for checking in!</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=p</td>
-	<td>Thanks for rating your mood! The more often you do this, the more feedback we can give you about how people, places, and your activities influence your mood.</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1162,8 +2097,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1172,8 +2117,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1182,8 +2137,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=feelingsChecklist-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1192,8 +2157,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1202,13 +2177,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=withPeople-3</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1217,8 +2207,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1227,8 +2227,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1237,8 +2247,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1247,13 +2267,18 @@
 	<td>Thanks for checking in!</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=p</td>
-	<td>We love hearing that you are doing really well. Taking the time to rate your mood helps us to figure out all the right things you’re doing to keep up your mood.</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1262,13 +2287,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=moodOverall-6</td>
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1277,8 +2317,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1287,8 +2337,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1297,8 +2357,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1307,8 +2377,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1317,8 +2397,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1327,9 +2417,9 @@
 	<td>Thanks for checking in!</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=p</td>
-	<td>It sounds like things are going really well! Keep up the good work!</td>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
@@ -1337,8 +2427,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-bar-chart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1347,8 +2447,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 <tr>
@@ -1357,8 +2467,668 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-envelope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=feeling</td>
+	<td>label=Sad</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=withPerson</td>
+	<td>label=I'm alone</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=conversationType</td>
+	<td>label=Not talking to anyone</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=location</td>
+	<td>label=My Bedroom</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=physicalEffort</td>
+	<td>label=Sitting</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=situationBasedMessage</td>
+	<td>You're sitting around your bedroom by yourself, not doing anything, and feeling sad.&nbsp;&nbsp;Go out and take a walk!</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cardLabel</td>
+	<td>in bedroom alone and sad</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=moodOverall-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=feelingsChecklist-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=feelingsChecklist-6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=feelingsChecklist-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=withPeople-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=conversationType-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=location-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=physicalEffort-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>You're sitting around your bedroom by yourself, not doing anything, and feeling sad.&nbsp;&nbsp;Go out and take a walk!</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='simplemodal-data']/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-envelope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='nextButton'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=feeling</td>
+	<td>label=Mad</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=withPerson</td>
+	<td>label=Mother</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=conversationType</td>
+	<td>label=Arguing</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=location</td>
+	<td>label=Relative's Home</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=physicalEffort</td>
+	<td>label=Standing</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=physicalEffort</td>
+	<td>label=Any</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=situationBasedMessage</td>
+	<td>You're at your relative's home arguing with your mother, feeling angry, and any level of physical exertion. Take a breather!</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cardLabel</td>
+	<td>arguing with mother</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.widget.size_height1 &gt; h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=moodOverall-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=feelingsChecklist-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=feelingsChecklist-7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=withPeople-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=conversationType-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=location-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=physicalEffort-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=assessmentNextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>You're at your relative's home arguing with your mother, feeling angry, and any level of physical exertion. Take a breather!</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='simplemodal-data']/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5</td>
 	<td></td>
 </tr>
 </tbody></table>
