@@ -9,6 +9,16 @@ app.views.copingCard = function (id) {
 	switch(id) {
 
 		// Coping Card List
+
+		case 1720:
+		_.each(app.values.copingCard.days, function(el,idx){
+
+			console.log(el);
+			$('input[value="'+el+'"]').prop('checked',true);
+
+		});
+		break;
+
 		case 1328:
 			if(time_based_cards.length > 0) {
 
@@ -69,6 +79,8 @@ app.actions.copingCard = function (id, ev) {
 		case 1720:
 
 			//Autofill form with existing object data
+
+
 			if (app.values.copingCard) {
 
 				$('#timeBasedMessage').val(app.values.copingCard.message);
@@ -91,6 +103,14 @@ app.actions.copingCard = function (id, ev) {
 					});
 
 				});
+
+				
+					_.each(app.values.copingCard.days, function(el,idx){
+
+			console.log(el);
+			$('input[value="'+el+'"]').prop('checked',true);
+
+		});
 
 
 			}

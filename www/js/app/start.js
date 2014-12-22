@@ -18,7 +18,7 @@ app.views.logic = function(id, options){
             break;
 
         // Coping Card Views
-        case (id == 1328):
+        case (id == 1328 || id == 1720):
             app.views.copingCard(id);
             break;
 
@@ -37,7 +37,7 @@ app.views.logic = function(id, options){
             break;
 
         // Activity Tracker
-        case (id==2085 || id==2111 || id==2112 || id==2113):
+        case (id==2084 || id==2085 || id==2111 || id==2112 || id==2113):
             app.views.activityTracker(id);
             break;
 
@@ -46,6 +46,13 @@ app.views.logic = function(id, options){
         case(id==2043 || id==2101 || id==2103 || id==2106 || id==2209 || id==2210 || id==2211 || id==2212 || id==2213 || id==2108):
             app.views.comingOut(id);
             break;
+
+        //trap
+        case (id == 1575 || id == 1959 || id == 1637):
+            app.views.trap(id);
+            break;
+
+
 
 
     }
