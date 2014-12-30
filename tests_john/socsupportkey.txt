@@ -1,0 +1,79 @@
+--------------------------------------------------
+PRACTICAL SUPPORT
+CONFIDENT?
+supportPrac-0	Not at all
+supportPrac-1	A little
+supportPrac-2	Some
+supportPrac-3	A lot
+supportPrac-4	Very much
+
+SOURCES
+peoplePrac-0	Family
+peoplePrac-1	Friends
+peoplePrac-2	Teachers/Mentors
+peoplePrac-3	Boy/Girlfriend
+peoplePrac-4	Community/Religious Organizations
+
+SATISFIED?
+satisfiedPrac-0	Yes
+satisfiedPrac-1	No
+
+VARIETY
+numPrac-0	One or two
+numPrac-1	Variety
+numPrac-2	None
+--------------------------------------------------
+EMOTIONAL SUPPORT
+CONFIDENT?
+supportEmot-0	Not at all
+supportEmot-1	A little
+supportEmot-2	Some
+supportEmot-3	A lot
+supportEmot-4	Very much
+
+SOURCES
+peopleEmot-0	Family
+peopleEmot-1	Friends
+peopleEmot-2	Teachers/Mentors
+peopleEmot-3	Boy/Girlfriend
+peopleEmot-4	Community/Religious Organizations
+
+SATISFIED?
+satisfiedEmot-0	Yes
+satisfiedEmot-1	No
+
+VARIETY
+numEmot-0	One or two
+numEmot-1	Variety
+numEmot-2	None
+--------------------------------------------------
+BELONGING SUPPORT
+CONFIDENT?
+supportBelong-0	Not at all
+supportBelong-1	A little
+supportBelong-2	Some
+supportBelong-3	A lot
+supportBelong-4	Very much
+
+SOURCES
+peopleBelong-0	Family
+peopleBelong-1	Friends
+peopleBelong-2	Teachers/Mentors
+peopleBelong-3	Boy/Girlfriend
+peopleBelong-4	Community/Religious Organizations
+
+SATISFIED?
+satisfiedBelong-0	Yes
+satisfiedBelong-1	No
+
+VARIETY
+numBelong-0	One or two
+numBelong-1	Variety
+numBelong-2	None
+
+
+IMPROVEMENT
+improveSupport-0	Spending more time with current supports
+improveSupport-1	Build the number of relationships you have
+improveSupport-2	I'm pretty satisfied with the social support I have
+--------------------------------------------------
