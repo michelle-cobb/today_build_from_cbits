@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -28,10 +30,10 @@ class Socsupport(unittest.TestCase):
         driver.find_element_by_id("numPrac-2").click()
         driver.find_element_by_name("nextButton").click()
 
-	matchstring1 = "It looks like you have few people you can turn to when you need practical support and that you aren’t super confident that you can get this support when you need it. You also say you aren’t satisfied with this situation!"
+	matchstring1 = "It looks like you have few people you can turn to when you need practical support and that you aren't super confident that you can get this support when you need it. You also say you aren't satisfied with this situation!"
 
 	time.sleep(2)
-        try: self.assertEqual(matchstring1.decode('ISO-8859-1'), driver.find_element_by_css_selector("#simplemodal-data > p").text)
+        try: self.assertEqual(matchstring1, driver.find_element_by_css_selector("#simplemodal-data > p").text)
         except AssertionError as e: self.verificationErrors.append(str(e))
         driver.find_element_by_link_text("Move on to look at Emotional Support").click()
         driver.find_element_by_id("supportEmot-1").click()
@@ -40,10 +42,10 @@ class Socsupport(unittest.TestCase):
         driver.find_element_by_id("numEmot-0").click()
         driver.find_element_by_name("nextButton").click()
 
-	matchstring2 = "It doesn’t look like you have too many people you can turn to when you need emotional support and you aren’t that confident you can get it when you need it."
+	matchstring2 = "It doesn't look like you have too many people you can turn to when you need emotional support and you aren't that confident you can get it when you need it."
 
 	time.sleep(2)
-        try: self.assertEqual(matchstring2.decode('ISO-8859-1'), driver.find_element_by_css_selector("#simplemodal-data > p").text)
+        try: self.assertEqual(matchstring2, driver.find_element_by_css_selector("#simplemodal-data > p").text)
         except AssertionError as e: self.verificationErrors.append(str(e))
         driver.find_element_by_link_text("Move on to look at Belonging Support").click()
         driver.find_element_by_id("supportBelong-2").click()
@@ -53,10 +55,10 @@ class Socsupport(unittest.TestCase):
         driver.find_element_by_id("numBelong-1").click()
         driver.find_element_by_name("nextButton").click()
 
-	matchstring3 = "It’s great that you feel like you belong around a variety of people. Still, it sounds like you aren’t fully confident you can get this support when you need it, and you’re not completely satisfied with the level of support available to you."
+	matchstring3 = "It's great that you feel like you belong around a variety of people. Still, it sounds like you aren't fully confident you can get this support when you need it, and you're not completely satisfied with the level of support available to you."
 
 	time.sleep(2)
-        try: self.assertEqual(matchstring3.decode('ISO-8859-1'), driver.find_element_by_css_selector("#simplemodal-data > p").text)
+        try: self.assertEqual(matchstring3, driver.find_element_by_css_selector("#simplemodal-data > p").text)
         except AssertionError as e: self.verificationErrors.append(str(e))
         driver.find_element_by_link_text("Finish").click()
         driver.find_element_by_id("improveSupport-1").click()
