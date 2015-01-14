@@ -1,0 +1,55 @@
+#for sat in 0 1:
+#	for conf in 0 1 2 3 4:
+#		for num in 0 1 2:
+
+# response_map key is list containing (sat, conf, num)
+# response_map value is array index in to find matchtext for those responses
+# in practical_responses, etc.
+#     response 0 sat:yes conf:notatall,alittle,some variety:none,1or2
+#     response 0 sat:0 conf:0,1,2 var:0,2
+#     response 1 sat:no conf:notatall,alittle,some variety:none,1or2
+#     response 1 sat:1 conf:0,1,2 var:0,2
+#     response 2 sat:yes conf:notatall,alittle,some variety:variety
+#     response 2 sat:0 conf:0,1,2 var:1
+#     response 3 sat:no conf:notatall,alittle,some variety:variety
+#     response 3 sat:1 conf:0,1,2 var:1
+#     response 4 sat:yes conf:alot,verymuch variety:none,1or2
+#     response 4 sat:0 conf:3,4 var:0,2
+#     response 5 sat:no conf:alot,verymuch variety:none,1or2
+#     response 5 sat:1 conf:3,4 var:0,2
+#     response 6 sat:yes conf:alot,verymuch variety:variety
+#     response 6 sat:0 conf:3,4 var:1
+#     response 7 sat:no conf:alot,verymuch variety:variety
+#     response 7 sat:1 conf:3,4 var:1
+
+response_map[(0,0,0)] = 0
+response_map[(0,0,1)] = 2
+response_map[(0,0,2)] = 0
+response_map[(0,1,0)] = 0
+response_map[(0,1,1)] = 2
+response_map[(0,1,2)] = 0
+response_map[(0,2,0)] = 0
+response_map[(0,2,1)] = 2
+response_map[(0,2,2)] = 0
+response_map[(0,3,0)] = 4
+response_map[(0,3,1)] = 6
+response_map[(0,3,2)] = 4
+response_map[(0,4,0)] = 4
+response_map[(0,4,1)] = 6
+response_map[(0,4,2)] = 4
+response_map[(1,0,0)] = 1
+response_map[(1,0,1)] = 3
+response_map[(1,0,2)] = 1
+response_map[(1,1,0)] = 1
+response_map[(1,1,1)] = 3
+response_map[(1,1,2)] = 1
+response_map[(1,2,0)] = 1
+response_map[(1,2,1)] = 3
+response_map[(1,2,2)] = 1
+response_map[(1,3,0)] = 5
+response_map[(1,3,1)] = 7
+response_map[(1,3,2)] = 5
+response_map[(1,4,0)] = 5
+response_map[(1,4,1)] = 7
+response_map[(1,4,2)] = 5
+
