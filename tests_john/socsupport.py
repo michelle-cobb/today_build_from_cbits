@@ -150,10 +150,12 @@ class Socsupport(unittest.TestCase):
             debugprint("...all is well!")
         except AssertionError as e:
             self.incrementFailedAsserts()
-            self.verificationErrors.append("practical feedback con:%d sat:%d num:%d did not match response %d: %s" % (con,sat,num,prac_index,str(e)))
-            print "practical feedback con:%d sat:%d num:%d did not match response %d: %s" % (con,sat,num,prac_index,str(e))
+            self.verificationErrors.append("practical feedback sat:%d con:%d num:%d did not match response %d: %s" % (sat,con,num,prac_index,str(e)))
+            print "======================================================================"
+            print "practical feedback sat:%d con:%d num:%d did not match response %d: %s" % (sat,con,num,prac_index,str(e))
             print "GOT   :" + driver.find_element_by_css_selector("#simplemodal-data").text
             print "WANTED:" + prac_match
+            print "======================================================================"
 
         self.outputStats()
 
@@ -184,10 +186,12 @@ class Socsupport(unittest.TestCase):
             debugprint("...all is well!")
         except AssertionError as e:
             self.incrementFailedAsserts()
-            self.verificationErrors.append("emotional feedback con:%d sat:%d num:%d did not match response %d: %s" % (con,sat,num,emo_index,str(e)))
-            print "emotional feedback con:%d sat:%d num:%d did not match response %d: %s" % (con,sat,num,emo_index,str(e))
+            self.verificationErrors.append("emotional feedback sat:%d con:%d num:%d did not match response %d: %s" % (sat,con,num,emo_index,str(e)))
+            print "======================================================================"
+            print "emotional feedback sat:%d con:%d num:%d did not match response %d: %s" % (sat,con,num,emo_index,str(e))
             print "GOT   :" + driver.find_element_by_css_selector("#simplemodal-data").text
             print "WANTED:" + emo_match
+            print "======================================================================"
 
         self.outputStats()
 
@@ -217,10 +221,12 @@ class Socsupport(unittest.TestCase):
             debugprint("...all is well!")
         except AssertionError as e:
             self.incrementFailedAsserts()
-            self.verificationErrors.append("belonging feedback con:%d sat:%d num:%d did not match response %d: %s" % (con,sat,num,bel_index,str(e)))
-            print "belonging feedback con:%d sat:%d num:%d did not match response %d: %s" % (con,sat,num,bel_index,str(e))
+            self.verificationErrors.append("belonging feedback sat:%d con:%d num:%d did not match response %d: %s" % (sat,con,num,bel_index,str(e)))
+            print "======================================================================"
+            print "belonging feedback sat:%d con:%d num:%d did not match response %d: %s" % (sat,con,num,bel_index,str(e))
             print "GOT   :" + driver.find_element_by_css_selector("#simplemodal-data").text
             print "WANTED:" + bel_match
+            print "======================================================================"
 
         self.outputStats()
 
