@@ -120,8 +120,8 @@ class Socsupport(unittest.TestCase):
 
         # this comes up with a blank blue screen the first time, every time. i am not
         # sure if this is a real bug or something odd on my end
-        driver.get("http://localhost:8080/")
-        driver.get("http://localhost:8080/")
+        driver.get(self.base_url)
+        driver.get(self.base_url)
 
         driver.find_element_by_xpath("//div[@id='mainContainer']/div/div[4]/h3").click()
         driver.find_element_by_css_selector("i.icon-heart-empty").click()
