@@ -4,7 +4,14 @@ app.views.activityTracker = function (id){
 
 	switch(id){
 
+		case 2084:
+		app.values.activity_tracker = {};
+		break;
+
 		case 2085:
+
+			debugger;
+			$("input").val('');
 
 			$('#question').append("<i class='icon-question-sign'></i>");
 

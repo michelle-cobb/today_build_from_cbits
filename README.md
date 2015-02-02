@@ -34,7 +34,7 @@ export ANDROID_PLATFORM_TOOLS="/Users/mnb760/android-sdk-macosx/platform-tools"
 PATH=$PATH:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS
 
 4. Set this up as an Android mobile phone application `cordova platform add android`
-5. To turn the distribution version into an application, copy the contents of the `folder` folder into the `app` folder and then run `cordova build`, alternatively running `cordova run android` will install the application on a mobile device plugged in, or will start an emulator onto which it will install the application (this could be automated using a bash script that runs `grunt build` then copies the contents from the dist folder into the www folder then runs the builder) 
+5. From the root, run `cordova build`, alternatively running `cordova run android` will install the application on a mobile device plugged in, or will start an emulator onto which it will install the application (this could be automated using a bash script that runs `grunt build` then copies the contents from the dist folder into the www folder then runs the builder) 
 6. The file will be built by either process into `/platforms/android/ant-build/{something}unaligned.apk`
 
 For more information:

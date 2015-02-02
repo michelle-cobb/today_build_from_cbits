@@ -31,7 +31,6 @@
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/js \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/node_modules \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/previewer.html \
-/Users/markbegale/projects/today_build_new/platforms/android/assets/www/README.md \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/rebuilder.cfm \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/server.js \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/start.bash \

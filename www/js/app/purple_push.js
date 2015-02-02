@@ -23,7 +23,7 @@ app.purpleNew = function(key, object) {
             new_trigger.type = "datetime";
             new_trigger.name = "activity_card";
             new_trigger.identifier = "time-card-" + card.id + "-" + Date.now().toString(date_format);
-            new_trigger.action = "PurpleRobot.vibrate('blip'); PurpleRobot.playDefaultTone(); PurpleRobot.showNativeDialog('Activity','Go to the activity tracker to log your activity', 'CLOSE', null, 'PurpleRobot.emitToast(\"Go for it!\", true);', null);";
+            new_trigger.action = "PurpleRobot.vibrate('blip'); PurpleRobot.playDefaultTone(); PurpleRobot.showNativeDialog('Activity','Go to the activity tracker to log your activity', 'CLOSE', 'PurpleRobot.launchApplication(\"edu.northwestern.cbits.today\")', 'PurpleRobot.emitToast(\"Go for it!\", true);', null);";
 
             //new_trigger.action = "PurpleRobot.playDefaultTone();";
             new_trigger.datetime_start = fire_date.toString(date_format);
@@ -65,7 +65,7 @@ app.purpleNew = function(key, object) {
                 new_trigger.type = "datetime";
                 new_trigger.name = "time_based_coping_card";
                 new_trigger.identifier = "time-card-" + card.id + "-" + Date.now().toString(date_format) + idx;
-                new_trigger.action = "PurpleRobot.vibrate('blip'); PurpleRobot.playDefaultTone(); PurpleRobot.showNativeDialog('COPE','" + card.message + "', 'CLOSE', null, 'PurpleRobot.emitToast(\"Hang in there!\", true);', null);";
+                new_trigger.action = "PurpleRobot.vibrate('blip'); PurpleRobot.playDefaultTone(); PurpleRobot.showNativeDialog('COPE','" + card.message + "', 'CLOSE', PurpleRobot.launchApplication(\"edu.northwestern.cbits.today\"), 'PurpleRobot.emitToast(\"Hang in there!\", true);', null);";
 
                 //new_trigger.action = "PurpleRobot.playDefaultTone();";
                 new_trigger.datetime_start = fire_date.toString(date_format);

@@ -1,4 +1,17 @@
-app.values.tracs = [];
+	app.values.tracs = [];
+
+
+app.views.trap = function (id) {
+
+
+	switch(id){
+		
+		case 1575:
+		app.values.trac = {};
+		break;
+	}
+
+}
 
 app.actions.trap = function (id) {
 
@@ -16,6 +29,7 @@ app.actions.trap = function (id) {
 	            	});
 
 	        }
+
 
 	        $('i').on("click", function (ev) {
                 app.values.trac = _.first(p.find("tracs", {id: parseInt($(this).attr("value"))}));
@@ -39,8 +53,12 @@ app.actions.trap = function (id) {
 				$('#response').val(trac.response);
 				$('#pattern').val(trac.avoidance_pattern);
 				$('#pattern').val(trac.avoidance_pattern);
-				$('#alternateCopingStrategy option:selected').text(trac.alternateCopingStrategy);
-				$('#getBackOnTrac option:selected').text(trac.getBackOnTrac);
+				$('#alternateCopingStrategy option:contains("'+trac.alternateCopingStrategy+'")').prop('selected',true)
+				// $('#alternateCopingStrategy option:selected').text(trac.alternateCopingStrategy);
+				// alert(trac.getBackOnTrac);
+				$('#getBackOnTrac option:contains("'+trac.getBackOnTrac+'")').prop('selected',true)
+
+				// $('#getBackOnTrac option:selected').text(trac.getBackOnTrac);
 			}
 			$('.btn').on("click", function (ev) {
 				trac.alternateCopingStrategy = $('#alternateCopingStrategy option:selected').text();

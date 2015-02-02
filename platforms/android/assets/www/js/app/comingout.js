@@ -244,20 +244,31 @@ app.actions.comingOut = function (id){
       $('input[name="nextButton"]').on("click", function (){
           var inputArray = $('[type="text"]');
           if(app.values.comingOut.gamePlan.who.length > 0){
+
+            var removeList = [];
             $.each(inputArray, function (index, field){
 
               if ($(field).val() == ""){
-                        debugger;
 
-              app.values.comingOut.gamePlan.who.splice(index,1);
+              removeList.push(index);
               }
               else{
-                        debugger;
-
+                if (app.values.comingOut.gamePlan.who[index] == undefined){
+                  app.values.comingOut.gamePlan.who[index] = {};
+                }
               app.values.comingOut.gamePlan.who[index].value = $(field).val();
               }
 
             });
+
+
+            removeList.reverse();
+
+            $.each(removeList, function(index,field){
+                  app.values.comingOut.gamePlan.who.splice(field,1);
+            });
+
+
           }
           else{
             $.each(inputArray, function (index, field){
