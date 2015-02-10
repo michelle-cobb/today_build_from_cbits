@@ -14,7 +14,6 @@ app.views.graphs = function(id) {
 			var mood_scores = p.find("assessment_1180");
 			
 			_.each(mood_scores, function(score) {
-				debugger;
 				overall_moods.push(score.responses[0].question_score);
 			});
 
@@ -22,14 +21,13 @@ app.views.graphs = function(id) {
 
 			var startDate = localStorage.startdate;
 			var currentDate = new Date();
-			// i < currentDate - startDate
 
-			for(var i=1; i < 7; i++) {
-				numbers.push(i);
+			for(var i=1; i <= 7; i++) {
+				numbers.push(i.toString());
 			}
-			var numbers_string = JSON.stringify(numbers);
-			$(function () {
-		        $('#mood-graph').highcharts({
+			
+      $(function () {
+		        $('#mood-graph-time').highcharts({
 		            title: {
 		                text: 'Daily Mood Score<br/>' +startDate+ " to " +currentDate,
 		                x: -20 //center
