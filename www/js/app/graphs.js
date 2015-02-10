@@ -9,34 +9,31 @@ app.views.graphs = function(id) {
 
 		case 1958:
 
-			var overall_moods = [];
-
-			var mood_scores = p.find("assessment_1180");
-			
-			_.each(mood_scores, function(score) {
-				overall_moods.push(score.responses[0].question_score);
-			});
-
-			var numbers = [];
-
-			var startDate = localStorage.startdate;
-			var currentDate = new Date();
+			var sevenDays = [];
 
 			for(var i=1; i <= 7; i++) {
-				numbers.push(i.toString());
+				sevenDays.push(i.toString());
 			}
 			
+			mappedMoods = [];
+
+			var pastMoods = sevenDayMoods(p.find("assessment_1180"));
+      
+		  _.each(sevenDays, function(day){
+        mappedMoods.push([day, averageRatings(groupRatingsByDay(pastMoods, moment().startOf('day').subtract('days', (parseInt(day) - 1))))])  
+      })	
+
       $(function () {
 		        $('#mood-graph-time').highcharts({
 		            title: {
-		                text: 'Daily Mood Score<br/>' +startDate+ " to " +currentDate,
+		                text: 'Daily Mood Score<br/>' +moment().subtract('days', 7).format("dddd, MMMM Do YYYY")+ " to " +moment().format("dddd, MMMM Do YYYY"),
 		                x: -20 //center
 		            },
 		            xAxis: {
 		            	title: {
 		            		text: 'Day'
 		            	},
-		                categories: numbers
+		                categories: sevenDays
 		            },
 		            yAxis: {
 		                title: {
@@ -56,7 +53,7 @@ app.views.graphs = function(id) {
 		            },
 		            series: [{
 		                name: 'Mood Rater',
-		                data: overall_moods
+		                data: mappedMoods
 		            }],
 		            exporting: {
          				enabled: false
@@ -79,4 +76,18 @@ app.actions.graphs = function(id) {
 			});
 			break;
 	}
+}
+
+function sevenDayMoods (moodRatings) {
+  return _.filter(moodRatings, function(rating) { return moment(rating.timestamp) > moment().subtract('days', 7) }) 
+}
+
+function groupRatingsByDay (moodRatings, day) {
+  return _.filter(moodRatings, function(rating) { return moment(rating.timestamp).startOf('day').diff(day, 'days') == 0 }) 
+}
+
+function averageRatings (moodRatings) {
+ return _.reduce(moodRatings, function(memo, num) {
+          return memo + num.responses[0].question_score;
+        }, 0) / (moodRatings.length === 0 ? 1 : moodRatings.length);
 }
