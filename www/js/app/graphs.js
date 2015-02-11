@@ -10,55 +10,46 @@ app.views.graphs = function(id) {
 		case 1958:
 
 			var sevenDays = [];
+      var mappedMoods = [];
+			var pastMoods = sevenDayMoods(p.find("assessment_1180"));
 
-			for(var i=1; i <= 7; i++) {
+			for(var i=7; i >= 1; i--) {
 				sevenDays.push(i.toString());
 			}
-			
-			mappedMoods = [];
-
-			var pastMoods = sevenDayMoods(p.find("assessment_1180"));
       
-		  _.each(sevenDays, function(day){
-        mappedMoods.push([day, averageRatings(groupRatingsByDay(pastMoods, moment().startOf('day').subtract('days', (parseInt(day) - 1))))])  
-      })	
+		  _.each(sevenDays, function(day, index){
+        mappedMoods.push([dayToDate(day), averageRatings(groupRatingsByDay(pastMoods, moment().startOf('day').subtract('days', (parseInt(day) - 1))))]);  
+        sevenDays[index] = dayToDate(day);
+      });
+
+      console.log(mappedMoods);
 
       $(function () {
-		        $('#mood-graph-time').highcharts({
-		            title: {
-		                text: 'Daily Mood Score<br/>' +moment().subtract('days', 7).format("dddd, MMMM Do YYYY")+ " to " +moment().format("dddd, MMMM Do YYYY"),
-		                x: -20 //center
-		            },
-		            xAxis: {
-		            	title: {
-		            		text: 'Day'
-		            	},
-		                categories: sevenDays
-		            },
-		            yAxis: {
-		                title: {
-		                    text: 'Mood'
-		                },
-		                plotLines: [{
-		                    value: 0,
-		                    width: 1,
-		                    color: '#808080'
-		                }]
-		            },
-		            legend: {
-		                layout: 'vertical',
-		                align: 'right',
-		                verticalAlign: 'middle',
-		                borderWidth: 0
-		            },
-		            series: [{
-		                name: 'Mood Rater',
-		                data: mappedMoods
-		            }],
-		            exporting: {
-         				enabled: false
-					}
-		        });
+          $('#mood-graph-time').highcharts({
+            title: {
+                text: 'Weekly Mood Scores',
+                x: -20 //center
+            },
+            xAxis: {
+              title: {
+                text: 'Day'
+              },
+                categories: sevenDays
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Mood'
+                }
+            },
+            series: [{
+                name: 'Mood Rater',
+                data: mappedMoods
+            }],
+            exporting: {
+            enabled: false
+            }
+          });
     		});
 			break;
 
@@ -78,16 +69,20 @@ app.actions.graphs = function(id) {
 	}
 }
 
+function dayToDate (day) {
+  return moment().subtract('days', day-1).format('MMM Do')
+}
+
 function sevenDayMoods (moodRatings) {
   return _.filter(moodRatings, function(rating) { return moment(rating.timestamp) > moment().subtract('days', 7) }) 
 }
 
 function groupRatingsByDay (moodRatings, day) {
-  return _.filter(moodRatings, function(rating) { return moment(rating.timestamp).startOf('day').diff(day, 'days') == 0 }) 
+  return _.filter(moodRatings, function(rating) { return moment(rating.timestamp).startOf('day').diff(day, 'days') === 0 }) 
 }
 
 function averageRatings (moodRatings) {
- return _.reduce(moodRatings, function(memo, num) {
+  return _.reduce(moodRatings, function(memo, num) {
           return memo + num.responses[0].question_score;
         }, 0) / (moodRatings.length === 0 ? 1 : moodRatings.length);
 }
