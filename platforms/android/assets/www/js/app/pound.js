@@ -72,7 +72,7 @@ var collection = [];
     else
     {
         object.id = 1;
-        object.created_at = new Date();
+        object.timestamp = new Date();
         collection = [object];
         pound.add("pound",key);
     }

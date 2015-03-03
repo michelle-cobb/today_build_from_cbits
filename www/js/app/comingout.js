@@ -185,6 +185,8 @@ app.actions.comingOut = function (id){
 
           app.values.comingOut.positiveQualities = $('#positive-qualities-form').serializeArray();
           p.save("coming_out", app.values.comingOut);
+          PurpleRobot.emitReading("ComingOut", app.values.comingOut);
+
         
       });
       break;

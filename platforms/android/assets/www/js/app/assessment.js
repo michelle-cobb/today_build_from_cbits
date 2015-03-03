@@ -168,7 +168,9 @@ app.actions.saveAssessmentItem = function (assessment_id,index,form_contents, op
         });
         
         var responses_with_question_id = form_contents;
-        p.save("assessment_"+assessment_id, {guid: app.values.currentAssessmentGuid, responses: responses_with_question_id})
+        p.save("assessment_"+assessment_id, {guid: app.values.currentAssessmentGuid, responses: responses_with_question_id});
+        PurpleRobot.emitReading('Assessment',{id:assessment_id,guid: app.values.currentAssessmentGuid, responses: responses_with_question_id});
+
     }
 
     else {
@@ -188,6 +190,8 @@ app.actions.saveAssessmentItem = function (assessment_id,index,form_contents, op
         });
         
         p.update("assessment_"+assessment_id, {guid: object.guid, id:object.id, responses: object.responses, timestamp: object.timestamp});
+        PurpleRobot.emitReading('Assessment',{id:assessment_id, id:object.id, responses: object.responses, timestamp: object.timestamp});
+
     }
 
 }
