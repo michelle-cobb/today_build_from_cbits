@@ -10,7 +10,7 @@ app.actions.backButton = function (){
 
 app.actions.homeButton = function (){
     $('input:button[name="homeButton"]').on("click", function (ev) {
-        window.location.hash = "#/index";
+        window.location.hash = "index.html";
     });
 };
 
@@ -53,6 +53,8 @@ app.actions.saveButton = function (targetDiv) {
     var switchDiv = targetDiv || "body";
     //TODO change hashed buttons into buttons with data roles WITH SAVE
     _.each(_.uniq($('input:button[name="saveButton"]')), function (element) {
+
+        debugger;
 
         if (element.value.indexOf("#") > -1) {
 

@@ -10,8 +10,7 @@ app.views.activityTracker = function (id){
 
 		case 2085:
 
-			debugger;
-			$("input").val('');
+			// $("input").val('');
 
 			$('#question').append("<i class='icon-question-sign'></i>");
 
@@ -328,7 +327,8 @@ app.actions.saveActivity = function (id){
 				app.values.activityTracker.reviewed = false;
 
 				p.save("activity_tracker", app.values.activityTracker);
-        PurpleRobotClient.emitReading('Activities',{name:'Saved Activity',response:app.values.activityTracker});
+				PurpleRobotClient.emitReading('Activities',{name:'Saved Activity',response:app.values.activityTracker});
+
 				app.values.activityTracker = {};
 
 			});

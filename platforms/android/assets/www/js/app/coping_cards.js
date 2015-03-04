@@ -200,7 +200,10 @@ app.purpleSituation = function(assessment_name, guid, options) {
     situation.withPeople = [];
     situation.feelings = [];
 
-    var situationCard = p.find(assessment_name, {guid: guid})[0];
+    var situationCard = p.find(assessment_name, {guid: guid})[0] || []; 
+
+    debugger;
+    if (card_array.length ==0){window.location.href=""};
 
     _.each(situationCard.responses, function(response) {
 

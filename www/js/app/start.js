@@ -180,7 +180,7 @@ app.header = function(options){
 
  var header = "";
  if(options.show_logo == 1){header += "<img src='images/logo.png' style='width:100%;' ><br/>"};
- if(options.hide_home_button == 0){header += "<div class='home-button'><a href='#/'><i class='icon-home icon-4x'></i></a></div>"};
+ if(options.hide_home_button == 0){header += "<div class='home-button'><a href='index.html'><i class='icon-home icon-4x'></i></a></div>"};
  return header
 
 }

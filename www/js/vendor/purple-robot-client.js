@@ -57,7 +57,6 @@ PurpleRobotClient.postJSON = function (json, emission_type) {
 
     var post_data = {};
     post_data.json = JSON.stringify(json);
-    debugger;
 
     console.log("TRANSMISSION ATTEMPT | Purple Robot Transmission [PurpleRobotClient.postJSON()]: ", post_data);
 
