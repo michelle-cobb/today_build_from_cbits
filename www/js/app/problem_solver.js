@@ -225,6 +225,8 @@ app.actions.problemSolverSave = function(id, ev) {
 				app.values.problemSolver.id = null;
 				app.values.problemSolver.problemLabel = $('#problemLabel').val();
 				p.save("problems", app.values.problemSolver);
+				PurpleRobotClient.emitReading("Problem Solver", {name:'Create Problem', response:app.values.problemSolver});
+
 			});
 			break;
 
@@ -232,6 +234,8 @@ app.actions.problemSolverSave = function(id, ev) {
 			$('.btn').on("click", function (ev){
 				app.values.problemSolver.solutions = $('input[name="solutionName"]').serializeArray();
 				p.update("problems", app.values.problemSolver);
+				PurpleRobotClient.emitReading("Problem Solver", {name:'Update Solution Name', response:app.values.problemSolver});
+
 			});
 			break;
 
@@ -239,6 +243,7 @@ app.actions.problemSolverSave = function(id, ev) {
 			$('.btn').on("click", function (ev){
 				app.values.problemSolver.goals = $('input[name="problemGoal"]').serializeArray();
 				p.update("problems", app.values.problemSolver);
+				PurpleRobotClient.emitReading("Problem Solver", {name:'Update Problem Goal', response:app.values.problemSolver});
 			});
 			break;
 
@@ -250,12 +255,16 @@ app.actions.problemSolverSave = function(id, ev) {
 				});
 
 				p.update("problems", app.values.problemSolver);
+				PurpleRobotClient.emitReading("Problem Solver", {name:'Update Solutions / Help / Minimal Effects', response:app.values.problemSolver});
+
 			});
 			break;
 		case 1956:
 			$('.btn').on("click", function (ev) {
 				app.values.problemSolver.preferredSolution = $('[name="solutionRadios"]:checked').attr("id");
 				p.update("problems", app.values.problemSolver);
+				PurpleRobotClient.emitReading("Problem Solver", {name:'Update Preferred Solutions', response:app.values.problemSolver});
+
 				app.values.problemSolver.id = null;
 			});
 			break;

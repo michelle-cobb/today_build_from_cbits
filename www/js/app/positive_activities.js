@@ -30,6 +30,8 @@ app.actions.positiveActivities = function (id, ev) {
 				});
 				app.values.positiveActivities.outAndAboutTown = get_out_array;
 				p.save("positive_activities", app.values.positiveActivities);
+				PurpleRobotClient.emitReading("Positive_Activities", {name:'Updated Out and About Town', response:app.values.positiveActivities});
+
 			});
 			break;
 		
@@ -49,6 +51,8 @@ app.actions.positiveActivities = function (id, ev) {
 				});
 				app.values.positiveActivities.beSocial = be_social_array;
 				p.update("positive_activities", app.values.positiveActivities);
+				PurpleRobotClient.emitReading("Positive_Activities", {name:'Updated Be Social', response:app.values.positiveActivities});
+
 			});
 			break;
 		
@@ -67,6 +71,7 @@ app.actions.positiveActivities = function (id, ev) {
 				});
 				app.values.positiveActivities.aloneTime = alone_time_array;
 				p.update("positive_activities", app.values.positiveActivities);
+				PurpleRobotClient.emitReading("Positive_Activities", {name:'Updated Alone Time', response:app.values.positiveActivities});
 
 			});
 			break;
@@ -86,6 +91,8 @@ app.actions.positiveActivities = function (id, ev) {
 				});
 				app.values.positiveActivities.pamperYourself = pamper_array;
 				p.update("positive_activities", app.values.positiveActivities);
+				PurpleRobotClient.emitReading("Positive_Activities", {name:'Updated Postivie Activities', response:app.values.positiveActivities});
+
 
 			});
 			break;
@@ -107,6 +114,8 @@ app.actions.positiveActivities = function (id, ev) {
 				});
 				app.values.positiveActivities.getInvolved = get_involved_array;
 				p.update("positive_activities", app.values.positiveActivities);
+				PurpleRobotClient.emitReading("Positive_Activities", {name:'Updated Get Involved', response:app.values.positiveActivities});
+
 
 			});
 			break;
@@ -128,6 +137,8 @@ app.actions.positiveActivities = function (id, ev) {
 				app.values.positiveActivities.workUpASweat = sweat_array;
 				p.update("positive_activities", app.values.positiveActivities);
 				app.values.positiveActivitiesLast = _.last(p.find("positive_activities"));
+				PurpleRobotClient.emitReading("Positive_Activities", {name:'Updated Work Up Sweat', response:app.values.positiveActivities});
+
 
 			});
 			break;

@@ -185,7 +185,7 @@ app.actions.comingOut = function (id){
 
           app.values.comingOut.positiveQualities = $('#positive-qualities-form').serializeArray();
           p.save("coming_out", app.values.comingOut);
-          PurpleRobot.emitReading("ComingOut", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Saved Positive Qualities', response:app.values.comingOut});
 
         
       });
@@ -208,6 +208,8 @@ app.actions.comingOut = function (id){
 
           app.values.comingOut.futureExcited = $('#future-excited-form').serializeArray();
           p.save("coming_out", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Saved Future Excited', response:app.values.comingOut});
+
         
       });
 
@@ -228,6 +230,8 @@ app.actions.comingOut = function (id){
 
           app.values.comingOut.supportNetwork = $('#support-network').serializeArray();
           p.save("coming_out", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Saved Support Network', response:app.values.comingOut});
+
         
       });
       break;
@@ -278,6 +282,8 @@ app.actions.comingOut = function (id){
             });
           }
           p.save("coming_out", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Saved Game Plan', response:app.values.comingOut});
+
         
       });
       break;
@@ -297,6 +303,8 @@ app.actions.comingOut = function (id){
             person.reaction = $('[name="'+person.value+'"]').val();
           });
           p.save("coming_out", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Saved Game Plan: Person', response:app.values.comingOut});
+
         
       });
       break;
@@ -317,6 +325,8 @@ app.actions.comingOut = function (id){
             person.relationship = $('[name="'+person.value+'"]').val();
           });
           p.save("coming_out", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Updated Relationships', response:app.values.comingOut});
+
         
       });
       break;
@@ -337,6 +347,8 @@ app.actions.comingOut = function (id){
             person.location = $('[name="'+person.value+'"]').val();
           });
           p.save("coming_out", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Updated Location', response:app.values.comingOut});
+
         
       });
       break;
@@ -357,6 +369,8 @@ app.actions.comingOut = function (id){
             person.plan = $('[name="'+person.value+'"]:checked').val();
           });
           p.save("coming_out", app.values.comingOut);
+          PurpleRobotClient.emitReading("Coming_Out", {name:'Updated Game Plan: Person', response:app.values.comingOut});
+
         
       });
       break;
@@ -371,6 +385,8 @@ app.actions.comingOut = function (id){
       $('input[name="nextButton"]').on("click", function (){
         app.values.comingOut.gamePlan.thoughts = $('textarea').val();
         p.save("coming_out", app.values.comingOut);
+        PurpleRobotClient.emitReading("Coming_Out", {name:'Updated Game Plan: Thoughts', response:app.values.comingOut});
+
       });
       break;
   }

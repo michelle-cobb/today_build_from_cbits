@@ -153,6 +153,12 @@ switch(id){
                 deleted: false
                 });
         });
+        PurpleRobotClient.emitReading('Goals',{name:'Saved Goal',response:{
+                goalLabel: $("input[name='goalLabel']").val(),
+                goalSteps: goalstep_array,
+                completed: false,
+                deleted: false
+                }});
 
         clearGoalTracker();
         break;
@@ -168,6 +174,7 @@ switch(id){
         $("[name=saveButton]").on("click", function(ev){
             app.values.goalTracker.completed = true;
             p.update("goals", app.values.goalTracker);
+            PurpleRobotClient.emitReading('Goals',{name:'Updated Goal',response:app.values.goalTracker});
         });
         break;
 
@@ -198,6 +205,7 @@ switch(id){
                     app.values.goalTracker.goalSteps[2].step3 = $('input[name="step3"]').val();
 
                     p.update("goals", app.values.goalTracker);
+                    PurpleRobotClient.emitReading('Goals',{name:'Updated Goal',response:app.values.goalTracker});
                     $.modal.close();
                     app.actions.goTo("", 1924, app.contents)
                 }
@@ -209,6 +217,7 @@ switch(id){
             setGoalSteps();
 
             p.save("goals", app.values.goalTracker);
+            PurpleRobotClient.emitReading('Goals',{name:'Saved Goal Steps',response:app.values.goalTracker});
 
             if( app.values.goalTracker.goalSteps[0].completed == true &&
                 app.values.goalTracker.goalSteps[1].completed == true &&
@@ -233,6 +242,7 @@ switch(id){
         $("[name='saveButton']").on("click", function(ev){
             app.values.goalTracker.deleted = true;
             p.save("goals", app.values.goalTracker);
+            PurpleRobotClient.emitReading('Goals',{name:'Saved Goal',response:app.values.goalTracker});
             clearGoalTracker();
         });
         break;

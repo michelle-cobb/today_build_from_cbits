@@ -328,8 +328,7 @@ app.actions.saveActivity = function (id){
 				app.values.activityTracker.reviewed = false;
 
 				p.save("activity_tracker", app.values.activityTracker);
-				PurpleRobot.emitReading('Activities',app.values.activity_tracker);
-
+        PurpleRobotClient.emitReading('Activities',{name:'Saved Activity',response:app.values.activityTracker});
 				app.values.activityTracker = {};
 
 			});
@@ -345,7 +344,7 @@ app.actions.saveActivity = function (id){
 				app.values.activityTracker.reviewed = true;
 
 				p.save("activity_tracker", app.values.activityTracker);
-				PurpleRobot.emitReading('Activities',app.values.activity_tracker);
+        PurpleRobotClient.emitReading('Activities',{name:'Saved Activity',response:app.values.activityTracker});
 
 				app.values.activityTracker = {};
 

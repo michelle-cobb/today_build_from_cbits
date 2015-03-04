@@ -2,6 +2,7 @@ app.views.assessmentQuestion = function(object){
 
 currentQuestionCounter = "";
 var element = object;
+debugger;
  switch (element.type) {
 
     case "radio":
@@ -169,7 +170,7 @@ app.actions.saveAssessmentItem = function (assessment_id,index,form_contents, op
         
         var responses_with_question_id = form_contents;
         p.save("assessment_"+assessment_id, {guid: app.values.currentAssessmentGuid, responses: responses_with_question_id});
-        PurpleRobotClient.emitReading('Assessment',{id:assessment_id,guid: app.values.currentAssessmentGuid, responses: responses_with_question_id});
+        PurpleRobotClient.emitReading('Assessment',{name:'Saved Assessment',response:{id:assessment_id,guid: app.values.currentAssessmentGuid, responses: responses_with_question_id}});
 
     }
 
@@ -190,7 +191,7 @@ app.actions.saveAssessmentItem = function (assessment_id,index,form_contents, op
         });
         
         p.update("assessment_"+assessment_id, {guid: object.guid, id:object.id, responses: object.responses, timestamp: object.timestamp});
-        PurpleRobotClient.emitReading('Assessment',{id:assessment_id, id:object.id, responses: object.responses, timestamp: object.timestamp});
+        PurpleRobotClient.emitReading('Assessment',{name:'Updated Answers',response:{id:assessment_id, id:object.id, responses: object.responses, timestamp: object.timestamp}});
 
     }
 

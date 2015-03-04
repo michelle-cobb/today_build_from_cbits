@@ -6,11 +6,13 @@ app.actions.inputConversion = function(){
 
         questionObject = _.where(app.questions,{id:parseInt(element.value)})[0];
 
+        debugger;
+
         pageContents = $("body").html();
 
         questionContents = app.views.assessmentQuestion(questionObject);
 
-        content_to_replace = pageContents.replace(element,questionContents);
+        content_to_replace = pageContents.replace(element,questionContents).replace('</','< / ');
 
         $(element).replaceWith(questionContents);
 
