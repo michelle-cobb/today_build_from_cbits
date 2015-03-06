@@ -2,7 +2,6 @@ app.views.assessmentQuestion = function(object){
 
 currentQuestionCounter = "";
 var element = object;
-debugger;
  switch (element.type) {
 
     case "radio":
