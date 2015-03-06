@@ -40,7 +40,7 @@ app.views.sequencePlayer = function (sequenceObject, appContents, index) {
     
 
     content_response.content += '</div><div class="content_panel" id="lesson" data-idx="'+ idx +'" data-parent-id="'+ sequenceObject.id +'" data-id="'+ array_of_objects[idx].id+'">' +array_of_objects[idx].main_content;
-
+debugger;
     if (array_of_objects[idx].main_content.search('type="button"') == -1) {
         if (idx > 0){
             content_response.content += app.views.lessonBackButton(sequenceObject.id,idx-1,"Back");

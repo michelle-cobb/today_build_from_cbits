@@ -35,7 +35,7 @@ app.views.lessonBackButton = function(id,idx,label){
 }
 
 app.views.lessonFinishButton = function(label){
-        return '<a href="index.html><input type="button" class="btn" value="'+label+'" style="float:right; min-width: 28%;margin-top: 26px;margin-right: -18px;" name="lessonFinishButton"/></a>'
+        return '<a href="index.html"><input type="button" class="btn" value="'+label+'" style="float:right; min-width: 28%;margin-top: 26px;margin-right: -18px;" name="lessonFinishButton"/></a>'
 }
 
 app.views.renderTimer = function() {
