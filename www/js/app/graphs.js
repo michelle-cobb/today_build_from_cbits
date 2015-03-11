@@ -47,7 +47,7 @@ app.views.graphs = function(id) {
       $(function () {
           $('#mood-graph-time').highcharts({
             title: {
-                text: 'Weekly Mood Scores',
+                text: 'Mood over Time',
                 x: -20 //center
             },
             xAxis: {
