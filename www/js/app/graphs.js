@@ -60,6 +60,12 @@ app.views.graphs = function(id) {
                 min: 0,
                 title: {
                     text: 'Mood'
+                },
+                labels: {
+                    overflow: 'visible',
+                    formatter: function () {
+                        return formatScore[this.value];
+                    }
                 }
             },
             series: [{
@@ -93,9 +99,7 @@ app.views.graphs = function(id) {
             yAxis: {
                 min: 0,
                 title: {
-                    text: 'Mood Score',
-                    align: 'high',
-
+                    text: 'Mood'
                 },
                 labels: {
                     overflow: 'visible',
@@ -156,9 +160,7 @@ app.views.graphs = function(id) {
             yAxis: {
                 min: 0,
                 title: {
-                    text: 'Mood Score',
-                    align: 'high',
-
+                    text: 'Mood'
                 },
                 labels: {
                     overflow: 'visible',
@@ -182,17 +184,15 @@ app.views.graphs = function(id) {
                 }
             },
             legend: {
-                layout: 'vertical',
+                layout: 'horizontal',
                 align: 'center',
                 verticalAlign: 'bottom',
                 floating: true,
-                y: 80,
+                y: 100,
                 padding: 15,
                 borderWidth: 1,
                 backgroundColor: '#FFFFFF',
-                shadow: true,
-                itemWidth: 120,
-                width: 180
+                shadow: true
             },
             credits: {
                 enabled: false
@@ -219,9 +219,7 @@ app.views.graphs = function(id) {
             yAxis: {
                 min: 0,
                 title: {
-                    text: 'Mood Score',
-                    align: 'high',
-
+                    text: 'Mood'
                 },
                 labels: {
                     overflow: 'visible',
@@ -245,7 +243,7 @@ app.views.graphs = function(id) {
                 }
             },
             legend: {
-                layout: 'vertical',
+                layout: 'horizontal',
                 align: 'center',
                 verticalAlign: 'bottom',
                 floating: true,
@@ -281,9 +279,7 @@ app.views.graphs = function(id) {
             yAxis: {
                 min: 0,
                 title: {
-                    text: 'Mood Score',
-                    align: 'high',
-
+                    text: 'Mood'
                 },
                 labels: {
                     overflow: 'visible',
@@ -307,7 +303,7 @@ app.views.graphs = function(id) {
                 }
             },
             legend: {
-                layout: 'vertical',
+                layout: 'horizontal',
                 align: 'center',
                 verticalAlign: 'bottom',
                 floating: true,
