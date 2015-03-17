@@ -40,7 +40,8 @@ app.views.graphs = function(id) {
         }
 
       _.each(sevenDays, function(day, index){
-        mappedMoods.push([dayToDate(day), averageRatings(groupRatingsByDay(pastMoods, moment().startOf('day').subtract('days', (parseInt(day) - 1))))]);
+        var average = averageRatings(groupRatingsByDay(pastMoods, moment().startOf('day').subtract('days', (parseInt(day) - 1))));
+        mappedMoods.push([dayToDate(day), average != 0 ? average : null ]);
         sevenDays[index] = dayToDate(day);
       });
 
@@ -409,7 +410,7 @@ app.values.dailyReviewSchema = [
                         "I tried to accept it the way it is",
                         "I tried to think about it in a different way",
                         "I told myself everything would be all right",
-                        "Excercised/played sports",
+                        "Excercised / played sports",
                         "Played video games or surfed the Web",
                         "Watched TV",
                         "Listened to music",
@@ -430,7 +431,7 @@ app.values.dailyReviewSchema = [
                   {"Expressing": [
                           "Crying or screaming",
                         "Talking to someone",
-                        "Writing in a journal/ diary",
+                        "Writing in a journal / diary",
                         "Singing, writing, or making other art"
                           ]
                 },
@@ -438,7 +439,7 @@ app.values.dailyReviewSchema = [
                   {"Lashing Out": [
                           "Yelling at somebody",
                                                 "Hitting, slamming, or punching",
-                                                "Being sarcastic/ making fun"
+                                                "Being sarcastic / making fun"
                           ]
                 },
 
