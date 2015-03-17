@@ -1,4 +1,4 @@
-var formatScore = ["Very Bad", "Bad", "A little Bad", "In Between/Mixed", "A Little Good", "Good", "Very Good"]
+var formatScore = ["Very Bad", "Bad", "A little Bad", "In Between / Mixed", "A Little Good", "Good", "Very Good"];
 
 function dayToDate (day) {
   return moment().subtract('days', day-1).format('MMM Do')
@@ -73,6 +73,9 @@ app.views.graphs = function(id) {
                 name: 'Mood Rater',
                 data: mappedMoods
             }],
+            credits: {
+                enabled: false
+            },
             exporting: {
             enabled: false
             }
@@ -122,6 +125,9 @@ app.views.graphs = function(id) {
                     pointWidth: 12,
                     minPointLength: 10
                 }
+            },
+            credits: {
+                enabled: false
             },
             legend: {
                 layout: 'horizontal',
@@ -336,6 +342,9 @@ app.views.graphs = function(id) {
             },
             tooltip: {
               enabled: false
+            },
+            credits: {
+                enabled: false
             },
             plotOptions: {
                 pie: {
