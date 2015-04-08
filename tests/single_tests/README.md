@@ -33,7 +33,7 @@ To run:
   desired files and click "Open".
 * It is best to choose "Play Current Test Case" as false-negatives will occur
   if you run these test cases as a test suite as there are dependency issues.
-* You should toggle the speed of the test playing to "Slow" or you may get 
+* You should toggle the speed of the test playing to "Slow" or you may get
   false-negatives.
 * If you add Power Debugger (Selenium IDE) you can click "Pause on Fail" next
   to the play buttons for debugging.
