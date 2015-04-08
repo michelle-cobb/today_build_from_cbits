@@ -12,6 +12,11 @@
 <tr><td rowspan="1" colspan="3">Daily Review</td></tr>
 </thead><tbody>
 <tr>
+	<td>open</td>
+	<td>http://localhost:8080</td>
+	<td></td>
+</tr>
+<tr>
 	<td>pause</td>
 	<td>5</td>
 	<td></td>
