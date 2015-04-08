@@ -28,16 +28,13 @@ To run:
   at the top with many buttons ("Daily Scoop", "Mood Rater", etc)
 * Open Selenium IDE (there should be an icon in the tool bar) - set base URL
   to localhost:8080
-* Either Open Test Suite: File > Open Test Suite... - go to "/today_build_new/
-  tests/" select one of the following "ComingOutToolSuite", "today tests", or
-  "ToolSuite". - as of 4/7 all three of these have a significant amount of
-  failures, much of which are false-negatives.
-* Or Add Test Cases: Within Selenium IDE, right click in box under "Test Case",
-  select "Add Test Case", go to "/today_build_new/tests/" highlight desired
-  files and click "Open".
-* You can choose to "Play Entire Test Suite" or "Play Current Test Case" by
-  selecting one of the green play buttons at the top. You should toggle the
-  speed of the test playing to "Slow" or you may get false-negatives.
+* Add Test Cases: Within Selenium IDE, right click in box under "Test Case",
+  select "Add Test Case", go to "/today_build_new/tests/single_tests" highlight
+  desired files and click "Open".
+* It is best to choose "Play Current Test Case" as false-negatives will occur
+  if you run these test cases as a test suite as there are dependency issues.
+* You should toggle the speed of the test playing to "Slow" or you may get
+  false-negatives.
 * If you add Power Debugger (Selenium IDE) you can click "Pause on Fail" next
   to the play buttons for debugging.
 * You may need to manually go back to base URL if you are re-running tests.
