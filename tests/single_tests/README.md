@@ -8,8 +8,8 @@ To run:
 
 * Download Firefox: https://www.mozilla.org/en-US/firefox/new/
 * Open firefox, download Selenium IDE plugin for Firefox:
-  release.seleniumhq.org/selenium-ide/2.9.0/selenium-ide-2.9.0.xpi.
-  Install the add-ons and restart the browser.
+  release.seleniumhq.org/selenium-ide/2.9.0/selenium-ide-2.9.0.xpi
+  * Install the add-ons and restart the browser.
 * I suggest adding Power Debugger (Selenium IDE):
   https://addons.mozilla.org/en-us/firefox/addon/power-debugger-selenium-ide/
   * this adds a pause on fail button which is extremely useful
