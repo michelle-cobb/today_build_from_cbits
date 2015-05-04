@@ -10,8 +10,9 @@
 * In the GitHub desktop app, sync your clone (hit the sync button).
 * Go to the command line by going to Spotlight (the magnifying glass in the
   corner) and typing `terminal`, then go to the directory (most likely
-  `cd\documents\today_build_new`)
-* Type `www/bash start.bash`
+  `cd documents\today_build_new`)
+* You will need to change to the www directory by `cd www/`
+* Now run `bash start.bash`
 * Go to your browser and visit localhost:8080
 * Hit refresh
 
@@ -26,7 +27,7 @@
 
   ```
   export PATH=$PATH:/usr/local/bin
-  export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+  export JAVA_HOME=$(/usr/libexec/java_home)
   launchctl setenv STUDIO_JDK /library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk
   export ANDROID_HOME="/Users/mnb760/android-sdk-macosx"
   export ANDROID_TOOLS="/Users/mnb760/android-sdk-macosx/tools"
