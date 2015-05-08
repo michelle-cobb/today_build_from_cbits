@@ -112,6 +112,7 @@ app.actions.socialSupport = function (id, ev) {
 				p.save("social_support", social);
 				app.values.socialSupport = {};
 				app.values.socialSupportLast = _.last(p.find("social_support"));
+				window.location.href='index.html';
 
 			});
 			break;
@@ -340,7 +341,7 @@ function belongingFeedbackModal(belongObject) {
 
 	if(html != ''){
 
-		html += "</div><a class='simplemodal-close'>Finish</a>";
+		html += "</div><a class='simplemodal-close'>One last step!</a>";
 
 		$.modal(html);
 
