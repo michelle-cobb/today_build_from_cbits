@@ -28,7 +28,7 @@ app.views.logic = function(id, options){
             break;
 
         // Graphs
-        case (id==1908 || id==1958):
+        case (id==1908 || id==1958 || id==2123):
             app.views.graphs(id);
             break;
         // Responsibility Pie
