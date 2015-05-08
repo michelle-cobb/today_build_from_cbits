@@ -30,8 +30,9 @@ To run:
 * Open Selenium IDE (there should be an icon in the tool bar) - set base URL
   to localhost:8080
 * Add Test Cases: Within Selenium IDE, right click in box under "Test Case",
-  select "Add Test Case", go to "/today_build_new/tests/single_tests" highlight
-  desired files and click "Open".
+  select "Add Test Case", go to the directory
+  "/today_build_new/tests/single_tests/refactored", highlight desired files and
+  click "Open". Alternatively, you can choose the file "FullSuite"
 * It is best to choose "Play Current Test Case" as false-negatives will occur
   if you run these test cases as a test suite as there are dependency issues.
 * You should toggle the speed of the test playing to "Slow" or you may get

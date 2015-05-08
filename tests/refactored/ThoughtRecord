@@ -183,18 +183,8 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>css=dd</td>
-	<td>I lost my dog</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//ul[@id='today-list']/li/dl/dd[2]</td>
-	<td>I'll never find him or see him again.</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//ul[@id='today-list']/li/dl/dd[3]</td>
-	<td>I might find him and get him back</td>
+	<td>css=li.Depressed</td>
+	<td>SituationI lost my dogThoughtI'll never find him or see him again.Alternate ThoughtI might find him and get him back</td>
 </tr>
 <tr>
 	<td>selectWindow</td>
@@ -558,33 +548,13 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>css=dd</td>
-	<td>I lost my dog</td>
+	<td>css=li.Depressed</td>
+	<td>SituationI lost my dogThoughtI'll never find him or see him again.Alternate ThoughtI might find him and get him back</td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//ul[@id='today-list']/li/dl/dd[2]</td>
-	<td>I'll never find him or see him again.</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//ul[@id='today-list']/li/dl/dd[3]</td>
-	<td>I might find him and get him back</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=li.Anxious &gt; dl.today-description &gt; dd</td>
-	<td>I forgot to walk Luna</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//ul[@id='today-list']/li[2]/dl/dd[2]</td>
-	<td>She's going to get mad and tear up my house.</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//ul[@id='today-list']/li[2]/dl/dd[3]</td>
-	<td>There's nothing in my house that Luna hasn't already torn up, so there's nothing to worry about.</td>
+	<td>css=li.Anxious</td>
+	<td>SituationI forgot to walk LunaThoughtShe's going to get mad and tear up my house.Alternate ThoughtThere's nothing in my house that Luna hasn't already torn up, so there's nothing to worry about.</td>
 </tr>
 <tr>
 	<td>pause</td>
