@@ -1,3 +1,4 @@
+
 var formatScore = ["Very Bad", "Bad", "A little Bad", "In Between / Mixed", "A Little Good", "Good", "Very Good"];
 
 function dayToDate (day) {
