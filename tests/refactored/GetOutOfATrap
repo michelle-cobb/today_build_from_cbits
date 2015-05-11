@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>GetOutOfATrap</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">GetOutOfATrap</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://localhost:8080</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=trigger</td>
+	<td>Talking to someone important</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=response</td>
+	<td>label=Mad</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pattern</td>
+	<td>Procrastinating</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=consequence</td>
+	<td>Not talking to this person</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=alternateCopingStrategy</td>
+	<td>label=Self-Soothing</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Welcome to the Goal Tracker!</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=trigger</td>
+	<td>Exercising</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=response</td>
+	<td>label=Angry</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pattern</td>
+	<td>Getting stuck</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=consequence</td>
+	<td>Not exercising</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=alternateCopingStrategy</td>
+	<td>label=Break it Down!</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=getBackOnTrac</td>
+	<td>label=Calendar</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Planner</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=trigger</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=response</td>
+	<td>label=Annoyed</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pattern</td>
+	<td>Substitution</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=consequence</td>
+	<td>Getting into bad situations</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=getBackOnTrac</td>
+	<td>label=Positive Activity List</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Positive Activities List</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=trigger</td>
+	<td>I don't know</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=response</td>
+	<td>label=Sad</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pattern</td>
+	<td>Complaining</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=consequence</td>
+	<td>smearing my makeup</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=alternateCopingStrategy</td>
+	<td>label=Rehearsing Helpful Thoughts</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=getBackOnTrac</td>
+	<td>label=Thought Record</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Think. Feel. Rethink.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=trigger</td>
+	<td>Test again</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=response</td>
+	<td>label=Down</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pattern</td>
+	<td>Inactivity</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=consequence</td>
+	<td>Fat</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=getBackOnTrac</td>
+	<td>label=Coping Card</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Confront, Overcome, Persevere, Encourage!</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=nextButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=trigger</td>
+	<td>Another testy test</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=response</td>
+	<td>label=Depressed</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pattern</td>
+	<td>Who cares!!</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=consequence</td>
+	<td>WHY??</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=alternateCopingStrategy</td>
+	<td>label=Self-Soothing</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=getBackOnTrac</td>
+	<td>label=Problem Solver</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Problem Solver</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-home.icon-4x</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-briefcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='mainContainer']/div[2]/div[5]/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.content_panel &gt; input[name=&quot;nextButton&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.Mad</td>
+	<td>TriggerTalking to someone importantThoughtMadAvoidance PatternProcrastinating</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.Angry</td>
+	<td>TriggerExercisingThoughtAngryAvoidance PatternGetting stuck</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.Annoyed</td>
+	<td>TriggerTestThoughtAnnoyedAvoidance PatternSubstitution</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.Sad</td>
+	<td>TriggerI don't knowThoughtSadAvoidance PatternComplaining</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.Down</td>
+	<td>TriggerTest againThoughtDownAvoidance PatternInactivity</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.Depressed</td>
+	<td>TriggerAnother testy testThoughtDepressedAvoidance PatternWho cares!!</td>
+</tr>
+</tbody></table>
+</body>
+</html>

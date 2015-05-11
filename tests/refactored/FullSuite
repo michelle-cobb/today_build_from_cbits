@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="ComingOutTool_GamePlan">ComingOutTool_GamePlan</a></td></tr>
+<tr><td><a href="ComingOutTool_SelfAcceptance">ComingOutTool_SelfAcceptance</a></td></tr>
+<tr><td><a href="ComingOutTool_SupportNetwork">ComingOutTool_SupportNetwork</a></td></tr>
+<tr><td><a href="CopingCard">CopingCard</a></td></tr>
+<tr><td><a href="DailyReview">DailyReview</a></td></tr>
+<tr><td><a href="DailyScoop_NewTools">DailyScoop_NewTools</a></td></tr>
+<tr><td><a href="FinishLessonOne">FinishLessonOne</a></td></tr>
+<tr><td><a href="GetOutOfATrap">GetOutOfATrap</a></td></tr>
+<tr><td><a href="GettingStarted_ReadLesson">GettingStarted_ReadLesson</a></td></tr>
+<tr><td><a href="GoalTracker">GoalTracker</a></td></tr>
+<tr><td><a href="InfoOnComingOut_ReadLesson">InfoOnComingOut_ReadLesson</a></td></tr>
+<tr><td><a href="InfoOnComingOut_RedirectFromLesson">InfoOnComingOut_RedirectFromLesson</a></td></tr>
+<tr><td><a href="Inspiration_NewTools">Inspiration_NewTools</a></td></tr>
+<tr><td><a href="InspiringPeople_RedirectURLs">InspiringPeople_RedirectURLs</a></td></tr>
+<tr><td><a href="MoodRater">MoodRater</a></td></tr>
+<tr><td><a href="PositiveActivityList">PositiveActivityList</a></td></tr>
+<tr><td><a href="ProblemSolver">ProblemSolver</a></td></tr>
+<tr><td><a href="ResponsibilityPie">ResponsibilityPie</a></td></tr>
+<tr><td><a href="SocialSupport">SocialSupport</a></td></tr>
+<tr><td><a href="ThoughtRecord">ThoughtRecord</a></td></tr>
+</tbody></table>
+</body>
+</html>

@@ -4,32 +4,47 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://localhost:8080/" />
-<title>Go to homepage</title>
+<title>DailyScoop_NewTools</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Go to homepage</td></tr>
+<tr><td rowspan="1" colspan="3">DailyScoop_NewTools</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>http://localhost:8080/index.html#/general/2004</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>5</td>
+	<td>http://localhost:8080</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=i.icon-home.icon-4x</td>
+	<td>css=i.icon-lightbulb</td>
 	<td></td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>5</td>
+	<td>assertCssCount</td>
+	<td>css=.btn.widget.size_height15.new-content</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-plane</td>
 	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://localhost:8080</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-lightbulb</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=.btn.widget.size_height15.new-content</td>
+	<td>5</td>
 </tr>
 </tbody></table>
 </body>
