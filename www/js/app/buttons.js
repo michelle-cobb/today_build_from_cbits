@@ -54,8 +54,6 @@ app.actions.saveButton = function (targetDiv) {
     //TODO change hashed buttons into buttons with data roles WITH SAVE
     _.each(_.uniq($('input:button[name="saveButton"]')), function (element) {
 
-        debugger;
-
         if (element.value.indexOf("#") > -1) {
 
             label = element.value.slice(0, element.value.indexOf("#"));

@@ -203,7 +203,7 @@ app.actions.scoreAssessments = function (assessment_name, guid, options) {
    
     case "assessment_1180":
         app.actions.moodRater(assessment_name, guid, options);
-        app.purpleSituation(assessment_name, guid, options);
+
 
     //     var options = options || {}, score= 0;
     //     options.cutoff = options.cutoff || 12,
@@ -224,7 +224,68 @@ app.actions.scoreAssessments = function (assessment_name, guid, options) {
     //         app.score_report += "<h2>EPDS Score</h2>" + score;
     //         window.location.hash = "#/assessment/" + next_page_idx;
     //     }
+
+    var coping_cards =  pound.find('situation_based_coping_cards');
+
+    var latest_response = pound.find('assessment_1180')[pound.find('assessment_1180').length-1];
+
+    var latest_response_set = {};
+
+    latest_response_set['feeling'] = latest_response.responses[1].value;
+    latest_response_set['withPerson'] = latest_response.responses[2].value;
+    latest_response_set['conversationType'] = latest_response.responses[3].value;
+    latest_response_set['location'] = latest_response.responses[4].value;
+    latest_response_set['physicalEffort'] = latest_response.responses[5].value;
+
+    var coping_messages = [];
+
+    _.each(coping_cards, function(coping_card){
+
+        var coping_card_true = false;
+
+        _.each(['feeling','withPerson','conversationType','location','physicalEffort'], function(label){
+
+
+            if (coping_card[label] == latest_response_set[label]){
+                coping_card_true = true;
+            }
+
+        })
+
+        if (coping_card_true){
+            coping_messages.push(coping_card.message);
+        }
+
+        debugger;
+    });
+
+    if (coping_messages.length > 0){
+
+        var content ='<h5>You made a coping card for this!</h5>';
+
+        _.each(coping_messages, function(el){
+           content += '<p>' + el + '</p>';
+
+        })
+
+        content += '<a href="index.html" class="btn">Finish!</a>';
+
+        $("body").html('<div style="border-radius:15px; background:#1e497c; color:white; margin:5%; padding:20px;">' + content + '</div>');
+
+
+    }
+
+    else{
+
+        app.purpleSituation(assessment_name, guid, options);
+
+    }
+
+
+
+
         break;
+
 
 
     }

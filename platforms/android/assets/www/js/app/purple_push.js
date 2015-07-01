@@ -9,27 +9,48 @@ app.purpleNew = function(key, object) {
         //set a trigger for each day-time combo
 
         case "activity_reminder":
-            var card = object;
-            debugger;
-            var date_format = "yyyyMMddTHHmmss";
-            var today = Date.today().getDayName();
-            var seconds = app.actions.timeToSeconds(object.fire_date);
+            // var card = object;
+            // debugger;
+            // var date_format = "yyyyMMddTHHmmss";
+            // var today = Date.today().getDayName();
+            // var seconds = app.actions.timeToSeconds(object.fire_date);
 
 
             var fire_date = _.where(card,{name:'when'})[0].value;
-            var trigger_event = new Date(seconds);
-            var end_date = trigger_event.add(1).minutes();
-            var new_trigger = {};
-            new_trigger.type = "datetime";
-            new_trigger.name = "activity_card";
-            new_trigger.identifier = "time-card-" + card.id + "-" + Date.now().toString(date_format);
-            new_trigger.action = "PurpleRobot.vibrate('blip'); PurpleRobot.playDefaultTone(); PurpleRobot.showNativeDialog('Activity','Go to the activity tracker to log your activity', 'CLOSE', 'PurpleRobot.launchApplication(\"edu.northwestern.cbits.today\")', 'PurpleRobot.emitToast(\"Go for it!\", true);', null);";
+            // var trigger_event = new Date(seconds);
+            // var end_date = trigger_event.add(1).minutes();
+            // var new_trigger = {};
+            // new_trigger.type = "datetime";
+            // new_trigger.name = "activity_card";
+            // new_trigger.identifier = "time-card-" + card.id + "-" + Date.now().toString(date_format);
+            // new_trigger.action = "PurpleRobot.vibrate('blip'); PurpleRobot.playDefaultTone(); PurpleRobot.showNativeDialog('Activity','Go to the activity tracker to log your activity', 'CLOSE', 'PurpleRobot.launchApplication(\"edu.northwestern.cbits.today\")', 'PurpleRobot.emitToast(\"Go for it!\", true);', null);";
 
-            //new_trigger.action = "PurpleRobot.playDefaultTone();";
-            new_trigger.datetime_start = fire_date.toString(date_format);
-            new_trigger.datetime_end = end_date.toString(date_format);
+            // //new_trigger.action = "PurpleRobot.playDefaultTone();";
+            // new_trigger.datetime_start = fire_date.toString(date_format);
+            // new_trigger.datetime_end = end_date.toString(date_format);
 
-            PurpleRobotClient.updateTrigger(new_trigger.identifier, JSON.stringify(new_trigger), "");
+            // PurpleRobotClient.updateTrigger(new_trigger.identifier, JSON.stringify(new_trigger), "");
+
+    var amTriggerDateTime = fire_date;
+    var amTriggerDateTimeEnd = fire_date.add(1).minutes();
+
+    var pr = new PurpleRobot();
+
+    var dialog =
+    pr.showNativeDialog({
+      title: "TODAY",
+      message: "Go to the activity tracker and log your activity:"  ,
+      buttonLabelA: "Yes",
+      scriptA: pr.launchApplication('edu.northwestern.cbits.today'),
+      buttonLabelB: "No",
+      scriptB: pr.emitToast("Thanks, we will check in later!"),
+      tag: "p20d",
+      priority: 3
+    });
+
+
+    (new PurpleRobot()).updateTrigger({ triggerId:'activity'+Math.random(), random: false, script: dialog, startAt: amTriggerDateTime, endAt: amTriggerDateTimeEnd}).execute();
+
 
             p.save("triggers", {
                 key: new_trigger.name,

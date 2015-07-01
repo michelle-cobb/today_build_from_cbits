@@ -23,7 +23,10 @@
 
 <!-- <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
  --><!-- <script src="js/vendor/bootstrap/js/bootstrap.min.js"></script>
- --><script src="js/vendor/purple-robot-client.js"></script>
+ -->
+<script src="js/vendor/purple-robot-client.js"></script>
+<script src="js/helper/purple-robot.js"></script>
+
 <script src="js/vendor/default-triggers.js"></script>
 <script src="js/vendor/date.js"></script>
 <script src="js/app/pound.js"></script>
@@ -35,10 +38,9 @@
 
 <script src="js/app/content.js"></script>
 <script src="js/app/questions.js"></script>
-
 <script src="js/app/app.js"></script>
-<script src="js/app/mood_rater.js"></script>
 <script src="js/app/purple_push.js"></script>
+<script src="js/app/mood_rater.js"></script>
 <script src="js/app/thoughtrecord.js"></script>
 <script src="js/app/positive_activities.js"></script>
 <script src="js/app/problem_solver.js"></script>
@@ -104,10 +106,56 @@
     #notCompletedGoals{list-style-type: none;}
 </style>
 <script>
+
+    if (localStorage['setup'] == undefined ){
+
+            localStorage['setup'] = true;
+
+            var amTriggerDateTime = new Date();
+            var amTriggerDateTimeEnd = new Date();
+
+            amTriggerDateTime.setHours(9);
+
+            amTriggerDateTimeEnd.setHours(13);
+
+            var pr = new PurpleRobot();
+
+            var dialog =
+            pr.showScriptNotification({
+            title: "TODAY",
+            message: "Time to check in!",
+            isPersistent: false,
+            isSticky: false,
+            script: pr.launchApplication('edu.northwestern.cbits.today')
+            });
+
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, startAt: amTriggerDateTime, endAt: amTriggerDateTimeEnd}).execute();
+    }
+
+    var loadOnBoot = function(){
+
+        console.log("RUNNING NOW");
+        var pr = new PurpleRobot();
+        var loadOnBoot = '';
+
+        (new PurpleRobot()).fetchEncryptedString('loadOnBoot', 'TODAY').execute({
+            done: function(payload) {
+                if (payload != '' && payload != undefined){
+                window.location.href=payload;
+                (new PurpleRobot()).persistEncryptedString('loadOnBoot','','TODAY').execute();
+            }
+        }});
+        
+    }
+
+
+
     try {
          $(document).ready(function () {
             new app.Router;
             Backbone.history.start();
+            loadOnBoot();
+
          });
     } catch (error) {
     console.error("Your javascript has an error: " + error);

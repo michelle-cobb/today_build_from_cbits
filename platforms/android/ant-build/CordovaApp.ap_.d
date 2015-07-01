@@ -300,6 +300,7 @@
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/js/app/calendar/js/mobiscroll.custom-2.7.2.min.js \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/js/app/calendar/js/underscore-min.js \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/js/helper/guideMaker.js \
+/Users/markbegale/projects/today_build_new/platforms/android/assets/www/js/helper/purple-robot.js \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/js/vendor/backbone-min.js \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/js/vendor/bootstrap \
 /Users/markbegale/projects/today_build_new/platforms/android/assets/www/js/vendor/bootstrap-select \
