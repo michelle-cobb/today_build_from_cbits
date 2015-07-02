@@ -257,6 +257,8 @@ app.actions.scoreAssessments = function (assessment_name, guid, options) {
 
     });
 
+            debugger;
+
     if (coping_messages.length > 0){
 
         var content ='<h5>You made a coping card for this!</h5>';
@@ -276,6 +278,7 @@ app.actions.scoreAssessments = function (assessment_name, guid, options) {
     }
 
     else{
+        debugger;
 
         app.actions.moodRater(assessment_name, guid, options);
 
