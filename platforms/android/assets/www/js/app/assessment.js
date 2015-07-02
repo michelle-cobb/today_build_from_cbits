@@ -202,7 +202,6 @@ app.actions.scoreAssessments = function (assessment_name, guid, options) {
     switch (assessment_name) {
    
     case "assessment_1180":
-        app.actions.moodRater(assessment_name, guid, options);
 
 
     //     var options = options || {}, score= 0;
@@ -256,7 +255,6 @@ app.actions.scoreAssessments = function (assessment_name, guid, options) {
             coping_messages.push(coping_card.message);
         }
 
-        debugger;
     });
 
     if (coping_messages.length > 0){
@@ -268,16 +266,18 @@ app.actions.scoreAssessments = function (assessment_name, guid, options) {
 
         })
 
-        content += '<a href="index.html" class="btn">Finish!</a>';
 
-        $("body").html('<div style="border-radius:15px; background:#1e497c; color:white; margin:5%; padding:20px;">' + content + '</div>');
+        content += '<a onclick="app.actions.moodRater(\''+assessment_name+'\',\''+guid+'\',\''+options +'\')" class="btn">Finish!</a>';
+
+        $("#mainContainer").html('<div style="border-radius:15px; background:#1e497c; color:white; margin:5%; padding:20px;">' + content + '</div>');
+
 
 
     }
 
     else{
 
-        app.purpleSituation(assessment_name, guid, options);
+        app.actions.moodRater(assessment_name, guid, options);
 
     }
 

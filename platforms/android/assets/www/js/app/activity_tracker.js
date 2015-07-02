@@ -326,6 +326,13 @@ app.actions.saveActivity = function (id){
 
 				app.values.activityTracker.reviewed = false;
 
+				var notification = {};
+				notification.when = $('input[name=when]').val();
+				notification.what = $('input[name=plan]').val();
+				notification.coping = $('input[name=coping_card]').val();
+
+				app.purpleNew('activity_reminder', notification);
+
 				p.save("activity_tracker", app.values.activityTracker);
 				PurpleRobotClient.emitReading('Activities',{name:'Saved Activity',response:app.values.activityTracker});
 
@@ -339,14 +346,19 @@ app.actions.saveActivity = function (id){
 
 			$('[name="saveButton"]').on("click", function(ev){
 
+
 				app.values.activityTracker.review = $('[type="radio"], input').serializeArray();
 
 				app.values.activityTracker.reviewed = true;
 
 				p.save("activity_tracker", app.values.activityTracker);
         PurpleRobotClient.emitReading('Activities',{name:'Saved Activity',response:app.values.activityTracker});
+        				debugger;
+
+
 
 				app.values.activityTracker = {};
+
 
 			});
 

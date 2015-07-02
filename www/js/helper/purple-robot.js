@@ -37,8 +37,8 @@
     // ___serverUrl__
     //
     // `@private`
-    // this._serverUrl = options.serverUrl || "http://localhost:12345/json/submit";
-    this._serverUrl = options.serverUrl || "http://192.168.2.51:12345/json/submit";
+    this._serverUrl = options.serverUrl || "http://localhost:12345/json/submit";
+      // this._serverUrl = options.serverUrl || "http://192.168.2.51:12345/json/submit";
     // ___script__
     //
     // `@private`

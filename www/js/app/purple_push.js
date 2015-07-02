@@ -43,6 +43,8 @@ debugger;
             var reminderPrivateId = 'a-'+card.what+'-'+reminderTriggerDateTime+'-reminder';
             var eventPrivateId = 'a-'+card.what+'-'+eventTriggerDateTime;
 
+            debugger;
+
             var pr = new PurpleRobot();
 
             var dialog =
