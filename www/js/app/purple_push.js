@@ -56,7 +56,8 @@ debugger;
               buttonLabelB: "No",
               scriptB: pr.emitToast("OK! Keep scheduling!").deleteTrigger(eventPrivateId),
               tag: "reminder",
-              priority: 3
+              priority: 3,
+              repeatRule: "FREQ=ONCE"
             });
 
             var secondDialog =
@@ -68,7 +69,9 @@ debugger;
               buttonLabelB: "",
               scriptB: pr.emitToast(""),
               tag: "reminder",
-              priority: 3
+              priority: 3,
+              repeatRule: "FREQ=ONCE"
+
             });
 
             (new PurpleRobot()).updateTrigger({ triggerId:reminderPrivateId, random: false, script: dialog, startAt: reminderTriggerDateTime.toDate(), endAt: reminderTriggerDateTimeEnd.toDate()}).execute();
