@@ -1046,7 +1046,9 @@
       datetime_start: formatDate(options.startAt),
       datetime_end: formatDate(options.endAt),
       datetime_repeat: options.repeatRule || "FREQ=DAILY;INTERVAL=1",
-      fire_on_boot: options.fire_on_boot || true
+      fire_on_boot: options.fire_on_boot || true,
+      datetime_random: options.datetime_random || false
+
     });
 
     return this._push("updateTrigger", q(triggerId) + ", " + triggerJson);

@@ -109,27 +109,90 @@
 
     if (localStorage['setup'] == undefined ){
 
-            localStorage['setup'] = true;
-
-            var amTriggerDateTime = new Date();
-            var amTriggerDateTimeEnd = new Date();
-
-            amTriggerDateTime.setHours(9);
-
-            amTriggerDateTimeEnd.setHours(13);
 
             var pr = new PurpleRobot();
 
+
+            var triggerDateTime = new Date();
+            var triggerDateTimeEnd = new Date();
+            triggerDateTime.setHours(9);
+            triggerDateTimeEnd.setHours(13);
             var dialog =
             pr.showScriptNotification({
             title: "TODAY",
-            message: "Time to check in!",
+            message: "It's time to check in with TODAY!",
             isPersistent: false,
             isSticky: false,
-            script: pr.launchApplication('edu.northwestern.cbits.today')
+            script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1180','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, startAt: amTriggerDateTime, endAt: amTriggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+
+            var triggerDateTime = new Date();
+            var triggerDateTimeEnd = new Date();
+            triggerDateTime.setHours(13);
+            triggerDateTimeEnd.setHours(17);
+            var dialog =
+            pr.showScriptNotification({
+            title: "TODAY",
+            message: "It's time to check in with TODAY!",
+            isPersistent: false,
+            isSticky: false,
+            script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1180','TODAY').launchApplication('edu.northwestern.cbits.today')
+            });
+
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+
+            var triggerDateTime = new Date();
+            var triggerDateTimeEnd = new Date();
+            triggerDateTime.setHours(17);
+            triggerDateTimeEnd.setHours(21);
+            var dialog =
+            pr.showScriptNotification({
+            title: "TODAY",
+            message: "It's time to check in with TODAY!",
+            isPersistent: false,
+            isSticky: false,
+            script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1180','TODAY').launchApplication('edu.northwestern.cbits.today')
+            });
+
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+
+
+            var triggerDateTime = new Date();
+            var triggerDateTimeEnd = new Date();
+            triggerDateTime.setHours(9);
+            triggerDateTimeEnd.setHours(13);
+            var dialog =
+            pr.showScriptNotification({
+            title: "TODAY",
+            message: "TODAY! has news for you!",
+            isPersistent: false,
+            isSticky: false,
+            script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1723','TODAY').launchApplication('edu.northwestern.cbits.today')
+            });
+
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+
+
+            var triggerDateTime = new Date();
+            var triggerDateTimeEnd = new Date();
+            triggerDateTime.setHours(19);
+            triggerDateTimeEnd.setHours(20);
+            var dialog =
+            pr.showScriptNotification({
+            title: "TODAY",
+            message: "TODAY! has news for you!",
+            isPersistent: false,
+            isSticky: false,
+            script: pr.persistEncryptedString('loadOnBoot','index.html#/general/2004','TODAY').launchApplication('edu.northwestern.cbits.today')
+            });
+
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+
+            localStorage['setup'] = true;
+
+
     }
 
     var loadOnBoot = function(){
