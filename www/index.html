@@ -172,7 +172,7 @@
             script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1723','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
 
 
             var triggerDateTime = new Date();
@@ -182,13 +182,13 @@
             var dialog =
             pr.showScriptNotification({
             title: "TODAY",
-            message: "TODAY! has news for you!",
+            message: "Time to review your day!",
             isPersistent: false,
             isSticky: false,
             script: pr.persistEncryptedString('loadOnBoot','index.html#/general/2004','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
 
             localStorage['setup'] = true;
 
