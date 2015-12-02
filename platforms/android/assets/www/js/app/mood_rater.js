@@ -30,13 +30,11 @@ app.actions.moodRater = function (tool_id, guid, options) {
 
 	// if overall mood is bad or a little bad 
 	case (score(tool_id,1,guid) == "Bad" || score(tool_id,1,guid) == "A Little Bad"):
-
 		goToAndPlayId([2019]);
-
 		break;
 	
 	// if overall mood is neutral or mixed, cycle through randomly the following
-	case(score(tool_id,1,guid) == "In Between/Mixed" ):
+	case(score(tool_id,1,guid) == "In Between / Mixed" ):
 		goToAndPlayId([1820,1826,1827,1828,1829,1847,1848,1849,1850,1851]);
 		break;
 	

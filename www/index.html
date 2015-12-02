@@ -126,7 +126,7 @@
             script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1180','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'todayCheckIn', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
 
             var triggerDateTime = new Date();
             var triggerDateTimeEnd = new Date();
@@ -141,7 +141,7 @@
             script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1180','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'todayCheckIn2', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
 
             var triggerDateTime = new Date();
             var triggerDateTimeEnd = new Date();
@@ -156,7 +156,7 @@
             script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1180','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'todayCheckIn3', random: true, script: dialog, datetime_random: true, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
 
 
             var triggerDateTime = new Date();
@@ -172,7 +172,7 @@
             script: pr.persistEncryptedString('loadOnBoot','index.html#/general/1723','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'todayNews', random: true, script: dialog, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
 
 
             var triggerDateTime = new Date();
@@ -188,7 +188,7 @@
             script: pr.persistEncryptedString('loadOnBoot','index.html#/general/2004','TODAY').launchApplication('edu.northwestern.cbits.today')
             });
 
-            (new PurpleRobot()).updateTrigger({ triggerId:'today', random: true, script: dialog, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
+            (new PurpleRobot()).updateTrigger({ triggerId:'todayReview', random: true, script: dialog, startAt: triggerDateTime, endAt: triggerDateTimeEnd}).execute();
 
             localStorage['setup'] = true;
 
