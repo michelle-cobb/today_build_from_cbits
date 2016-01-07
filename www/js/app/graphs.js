@@ -420,35 +420,35 @@ app.values.dailyReviewSchema = [
                         "I tried to accept it the way it is",
                         "I tried to think about it in a different way",
                         "I told myself everything would be all right",
-                        "Exercised",
                         "Played video games or surfed the Web",
-                        "Watched TV",
+                        "Watched TV or read a book",
                         "Listened to music",
                         "Saw friends",
                         "Got something to eat",
                         "Did a hobby",
                         "Did work or schoolwork",
-                        "Other",
+                        "Other calming activity",
                         "Took deep breaths",
                         "Prayed or meditated",
                         "Took a break",
                         "Went for a walk",
-                        "Exercised / played sports"
+                        "Exercised or played sports"
                          ]
                 },
 
                   {"Expressing": [
                           "Crying or screaming",
                         "Talking to someone",
-                        "Writing in a journal / diary",
-                        "Singing, writing or making other art"
+                        "Writing in a journal or diary",
+                        "Expressing myself through art (singing, dancing, etc.)"
                           ]
                 },
 
                   {"Lashing Out": [
                           "Yelling at somebody",
                                                 "Hitting, slamming, or punching",
-                                                "Being sarcastic / making fun"
+                                                "Being sarcastic or making fun",
+                                                    "Complaining or venting"
                           ]
                 },
 
