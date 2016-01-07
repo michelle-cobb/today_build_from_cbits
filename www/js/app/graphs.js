@@ -415,12 +415,12 @@ app.values.dailyReviewSchema = [
                 },
 
                   {"Adapting": [
-                          "I told myself that it isn’t a big deal",
-                        "I decided that I’m still ok, nobody’s perfect",
+                          "I told myself that it isn\'t a big deal",
+                        "I decided that I\'m still OK, nobody\'s perfect",
                         "I tried to accept it the way it is",
                         "I tried to think about it in a different way",
                         "I told myself everything would be all right",
-                        "Excercised / played sports",
+                        "Exercised",
                         "Played video games or surfed the Web",
                         "Watched TV",
                         "Listened to music",
@@ -430,11 +430,10 @@ app.values.dailyReviewSchema = [
                         "Did work or schoolwork",
                         "Other",
                         "Took deep breaths",
-                        "Listened to music",
                         "Prayed or meditated",
                         "Took a break",
-                        "Took a walk",
-                        "Exercised"
+                        "Went for a walk",
+                        "Exercised / played sports"
                          ]
                 },
 
@@ -442,7 +441,7 @@ app.values.dailyReviewSchema = [
                           "Crying or screaming",
                         "Talking to someone",
                         "Writing in a journal / diary",
-                        "Singing, writing, or making other art"
+                        "Singing, writing or making other art"
                           ]
                 },
 
@@ -457,8 +456,8 @@ app.values.dailyReviewSchema = [
                           "I tried not to think about it",
                         "I acted like nothing ever happened",
                         "I wished the problem would just go away",
-                        "I smoked cigarettes, took drugs, drank alcohol, or ate more than I wanted to",
-                        "I couldn’t stop thinking about it, but I didn’t try anything to improve the situation or my feelings."
+                        "I smoked, took drugs, drank alcohol, or ate more than I wanted to",
+                        "I couldn\'t stop thinking about it, but I didn\'t try anything to improve the situation or my feelings"
                         ]
                 }
                 ];
