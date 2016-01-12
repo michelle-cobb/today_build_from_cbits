@@ -347,16 +347,23 @@ app.views.graphs = function(id) {
             credits: {
                 enabled: false
             },
+            legend: {
+                labelFormatter: function() {
+                    var total = 0, percentage; 
+                    $.each(this.series.data, function() { 
+                        total+=this.y; 
+                    }); 
+                    percentage=((this.y/total)*100).toFixed(0); 
+                    return this.name + ' <span style="color:'+this.color+'">'+percentage+'</span>' + '%';
+                    },
+            },
             plotOptions: {
                 pie: {
                     allowPointSelect: false,
-                    cursor: 'pointer',
                     dataLabels: {
-                        enabled: true,
-                        color: '#000000',
-                        connectorColor: '#000000',
-                        format: '<b>{point.name}</b> {point.percentage: .1f} %'
-                    }
+                        enabled: false,
+                    },
+                    showInLegend: true
                 }
             },
             series: [{
