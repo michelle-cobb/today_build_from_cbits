@@ -190,7 +190,10 @@ app.start = function (targetDiv,label) {
     if(p.find("start_date").length == 0) {
         app.defaults.startDate();
     }
-    $(targetDiv).html(app.views.home);
+    
+    $(targetDiv).html(app.views.home());  
+    
+    
     app.actions.default(targetDiv);
 
 };

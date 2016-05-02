@@ -347,16 +347,23 @@ app.views.graphs = function(id) {
             credits: {
                 enabled: false
             },
+            legend: {
+                labelFormatter: function() {
+                    var total = 0, percentage; 
+                    $.each(this.series.data, function() { 
+                        total+=this.y; 
+                    }); 
+                    percentage=((this.y/total)*100).toFixed(0); 
+                    return this.name + ' <span style="color:'+this.color+'">'+percentage+'</span>' + '%';
+                    },
+            },
             plotOptions: {
                 pie: {
                     allowPointSelect: false,
-                    cursor: 'pointer',
                     dataLabels: {
-                        enabled: true,
-                        color: '#000000',
-                        connectorColor: '#000000',
-                        format: '<b>{point.name}</b> {point.percentage: .1f} %'
-                    }
+                        enabled: false,
+                    },
+                    showInLegend: true
                 }
             },
             series: [{
@@ -415,41 +422,40 @@ app.values.dailyReviewSchema = [
                 },
 
                   {"Adapting": [
-                          "I told myself that it isn’t a big deal",
-                        "I decided that I’m still ok, nobody’s perfect",
+                          "I told myself that it isn\'t a big deal",
+                        "I decided that I\'m still OK, nobody\'s perfect",
                         "I tried to accept it the way it is",
                         "I tried to think about it in a different way",
                         "I told myself everything would be all right",
-                        "Excercised / played sports",
                         "Played video games or surfed the Web",
-                        "Watched TV",
+                        "Watched TV or read a book",
                         "Listened to music",
                         "Saw friends",
                         "Got something to eat",
                         "Did a hobby",
                         "Did work or schoolwork",
-                        "Other",
+                        "Other calming activity",
                         "Took deep breaths",
-                        "Listened to music",
                         "Prayed or meditated",
                         "Took a break",
-                        "Took a walk",
-                        "Exercised"
+                        "Went for a walk",
+                        "Exercised or played sports"
                          ]
                 },
 
                   {"Expressing": [
                           "Crying or screaming",
                         "Talking to someone",
-                        "Writing in a journal / diary",
-                        "Singing, writing, or making other art"
+                        "Writing in a journal or diary",
+                        "Expressing myself through art (singing, dancing, etc.)"
                           ]
                 },
 
                   {"Lashing Out": [
                           "Yelling at somebody",
                                                 "Hitting, slamming, or punching",
-                                                "Being sarcastic / making fun"
+                                                "Being sarcastic or making fun",
+                                                    "Complaining or venting"
                           ]
                 },
 
@@ -457,8 +463,8 @@ app.values.dailyReviewSchema = [
                           "I tried not to think about it",
                         "I acted like nothing ever happened",
                         "I wished the problem would just go away",
-                        "I smoked cigarettes, took drugs, drank alcohol, or ate more than I wanted to",
-                        "I couldn’t stop thinking about it, but I didn’t try anything to improve the situation or my feelings."
+                        "I smoked, took drugs, drank alcohol, or ate more than I wanted to",
+                        "I couldn\'t stop thinking about it, but I didn\'t try anything to improve the situation or my feelings"
                         ]
                 }
                 ];

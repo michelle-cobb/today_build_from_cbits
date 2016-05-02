@@ -4,8 +4,8 @@ clear
 
 echo "building distribution directory"
 
-curl 'http://mohrlab.northwestern.edu/parakeet/app/content.js' -o "js/app/content.js"
-curl 'http://mohrlab.northwestern.edu/parakeet/app/questions.js' -o "js/app/questions.js"
+curl 'https://mohrlab.northwestern.edu/parakeet/app/content.js' -o "js/app/content.js"
+curl 'https://mohrlab.northwestern.edu/parakeet/app/questions.js' -o "js/app/questions.js"
 
 wait
 

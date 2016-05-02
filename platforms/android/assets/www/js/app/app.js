@@ -45,7 +45,6 @@ app.panels = _.where(app.contents, {
     element_type: "panel"
 });
 
-
 app.views = {};
 app.actions = {};
 app.utility = {};
